@@ -1,7 +1,9 @@
+
+
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <WORKSPACE
 #    Command-line to run this workspace:
-#        /Library/FME/2018.0/fme /tmp/wb_publish_1523376216429_1095/QueryLandRegistryPricePaid.fmw
+#        /Library/FME/2018.1/fme /tmp/wb_publish_152346266992_1085/QueryLandRegistryPricePaid.fmw
 #              --SourceDataset_ESRISHAPE "/Users/jlutherthomas/Desktop/UK World Tour/Leeds District (B).shp"
 #    
 #!   ATTR_TYPE_ENCODING="SDF"
@@ -16,8 +18,8 @@
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
-#!   FME_BUILD_NUM="18295"
-#!   FME_DOCUMENT_GUID="d5bdea3f-1a47-4ea6-89c6-078ebbd4a9ad"
+#!   FME_BUILD_NUM="18445"
+#!   FME_DOCUMENT_GUID="1b34927c-a793-4d76-902c-7e4268322bdd"
 #!   FME_DOCUMENT_PRIORGUID="df43ce65-29a6-49e8-b52c-2c82439bf3b7,af556f2d-ccab-47a7-8229-9d9d5ff0b2cc,ef174c1a-dc22-4245-b2a0-cee770483a43,c5cc1bf6-2b2e-46d8-a588-827a3c7da9ee,c7466d5d-aba0-4973-8d89-b9feacc71163,e176558c-fa62-4e75-91fa-60a4855d08f2,7b113b1a-9426-467a-859a-f77d6d627414,ac429d43-4193-4fc4-8a62-a6cba7854742"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
@@ -26,8 +28,8 @@
 #!   FME_STROKE_MAX_DEVIATION="0"
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
-#!   LAST_SAVE_BUILD="FME(R) 2018.0.0.1 (20180328 - Build 18295 - macosx)"
-#!   LAST_SAVE_DATE="2018-04-10T11:03:36"
+#!   LAST_SAVE_BUILD="FME(R) 2018.1.0.0 (20180326 - Build 18445 - macosx)"
+#!   LAST_SAVE_DATE="2018-04-11T11:04:29"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -45,7 +47,7 @@
 #!   TITLE="QueryLandRegistryPricePaid_EDI"
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-504.005 114.001"
+#!   VIEW_POSITION="-504.005 33.0003"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="100"
@@ -64,7 +66,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="SHAPE_GEOMETRY {FME_GEN_GEOMETRY}"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="shape_measures char(254) fme_secondary_axis double fme_dataset char(50) fme_fill_color char(50) fme_geometry char(50) SHAPE_GEOMETRY char(50) fme_start_angle double fme_type char(50) fme_sweep_angle double multi_reader_keyword char(50) fme_feature_type char(50) fme_text_size double fme_text_string char(50) multi_reader_id long fme_color char(50) multi_reader_full_id long fme_primary_axis double fme_rotation double shape_geometry_error{} char(254) fme_basename char(50) multi_reader_type char(50)"
+#!   EXPOSABLE_ATTRS="multi_reader_keyword char(50) fme_color char(50) fme_secondary_axis double multi_reader_type char(50) shape_geometry_error{} char(254) fme_geometry char(50) shape_measures char(254) fme_basename char(50) fme_primary_axis double fme_text_size double fme_rotation double multi_reader_id long fme_text_string char(50) fme_type char(50) fme_fill_color char(50) SHAPE_GEOMETRY char(50) fme_feature_type char(50) fme_dataset char(50) fme_start_angle double fme_sweep_angle double multi_reader_full_id long"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES="Indexed"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -508,6 +510,10 @@
 #!   VALUE=""
 #! />
 #! <MODIFICATION
+#!   UID=":WBParameterNode_15:FILEPATH_OR_URL"
+#!   VALUE="&lt;Unused&gt;"
+#! />
+#! <MODIFICATION
 #!   UID=":WBParameterNode_3:OUTPUT_DIRNAME"
 #!   VALUE="&lt;Unused&gt;"
 #! />
@@ -543,7 +549,7 @@
 #!   BOUNDING_RECT="714.00213002130022 -96.002070020700444 2030.0205102051032 749.5049000490003"
 #!   STICKY="true"
 #!   COLOUR="0.87058823529411766,0.67450980392156867,0.36862745098039218"
-#!   CONTENTS="18 16 9 5 12 15 21 19 8 20 "
+#!   CONTENTS="18 21 16 19 20 15 12 5 9 8 "
 #! >
 #! </BOOKMARK>
 #! </BOOKMARKS>
@@ -569,7 +575,7 @@
 #!     <XFORM_ATTR ATTR_NAME="_encoded" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <OUTPUT_FEAT NAME="&lt;Rejected&gt;"/>
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="q" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="NAME" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -578,6 +584,7 @@
 #!     <XFORM_ATTR ATTR_NAME="n" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_encoded" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_error" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_PARM PARM_NAME="ADDITIONAL_PARAMETERS_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
@@ -709,6 +716,7 @@
 #!     <XFORM_ATTR ATTR_NAME="_encoded" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_results" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_PARM PARM_NAME="EXTRACT_QUERY_TABLE" PARM_VALUE="_results json&lt;openbracket&gt;&lt;quote&gt;result&lt;quote&gt;&lt;closebracket&gt;"/>
 #!     <XFORM_PARM PARM_NAME="JSON_DOCUMENT" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;_response_body&lt;closeparen&gt;"/>
@@ -755,16 +763,21 @@
 #!     <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_results" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_PARM PARM_NAME="EXPLODE_FORMAT" PARM_VALUE="JSON"/>
 #!     <XFORM_PARM PARM_NAME="EXTRACT_ATTR" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="FILEPATH_OR_URL" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="FLATTEN_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="INPUT_SETTINGS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="JSON_ATTR" PARM_VALUE="_results"/>
 #!     <XFORM_PARM PARM_NAME="JSON_QUERY" PARM_VALUE="json&lt;openbracket&gt;&lt;quote&gt;results&lt;quote&gt;&lt;closebracket&gt;&lt;openbracket&gt;&lt;quote&gt;bindings&lt;quote&gt;&lt;closebracket&gt;&lt;openbracket&gt;*&lt;closebracket&gt;"/>
 #!     <XFORM_PARM PARM_NAME="NEW_ATTRIBUTES" PARM_VALUE="date.value hpi.value region.value"/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PREF_STRING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="READ_FROM_FILE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="RECURSIVE" PARM_VALUE="Yes"/>
 #!     <XFORM_PARM PARM_NAME="REJECT_EMPTY_LISTS" PARM_VALUE="YES"/>
+#!     <XFORM_PARM PARM_NAME="RESULT_ATTRIBUTE" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="JSONFragmenter"/>
 #! </TRANSFORMER>
@@ -1010,6 +1023,7 @@
 #! <LOOKUP_TABLES>
 #! </LOOKUP_TABLES>
 #! </WORKSPACE>
+
 FME_PYTHON_VERSION 2or3
 GUI IGNORE SourceDataset_ESRISHAPE_1,ESRISHAPE_IN_READER_PARAMETERS_ESRISHAPE_1,ESRISHAPE_IN_ENCODING_ESRISHAPE_1,ESRISHAPE_IN_USE_SEARCH_ENVELOPE_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_1,ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_1,ESRISHAPE_IN_ADVANCED_ESRISHAPE_1,ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_1,ESRISHAPE_IN_GEOMETRY_ESRISHAPE_1,ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_1,ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_1,ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_1,ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_1,ESRISHAPE_IN_NETWORK_AUTHENTICATION_ESRISHAPE_1
 DEFAULT_MACRO SourceDataset_ESRISHAPE /Users/jlutherthomas/Desktop/UK World Tour/Leeds District (B).shp
@@ -1201,9 +1215,9 @@ FACTORY_DEF * TextEncoderFactory    FACTORY_NAME TextEncoder    INPUT  FEATURE_T
 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * HTTPFactory    FACTORY_NAME HTTPCaller       INPUT  FEATURE_TYPE TextEncoder_OUTPUT    TARGET_URL "http:<solidus><solidus>landregistry.data.gov.uk<solidus>app<solidus>root<solidus>qonsole<solidus>query"    HTTP_METHOD POST    SAVE_FILE NO    OUTPUT_FILENAME "<Unused>"    OUTPUT_DIRECTORY "<Unused>"    FILE_EXTENSION "<Unused>"    TARGET_ATTR "_response_body"    FILE_PATH_ATTR "<Unused>"    UPLOAD_FILE "<Unused>"    UPLOAD_BODY ""    MULTIPART_UPLOAD NO    UPLOAD_CONTENT_TYPE "text/plain"    COMBINED_MULTIPART_TABLE    REQUEST_HEADER_TABLE    ADDITIONAL_URL_PARAMETERS q;@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_encoded<closeparen>,HTTPCaller) output;json    AUTH_USERNAME "<Unused>"    AUTH_PASSWORD "<Unused>"    AUTH_METHOD "<Unused>"    TARGET_ATTRIBUTE_ENCODING auto-detect    RESPONSE_HEADER_LIST_ATTR ""    STATUS_CODE_ATTR "_http_status_code"    ERROR_ATTR "_error"    CONNECTION_TIMEOUT_LENGTH 60    TRANSFER_TIMEOUT_LENGTH 90    FOLLOW_REDIRECTS Yes    VERIFY_SSL_CERTIFICATES Yes    NAMED_CONNECTION "<Unused>"    USE_COOKIES No    OUTPUT OUTPUT FEATURE_TYPE HTTPCaller_Output    OUTPUT REJECTED FEATURE_TYPE HTTPCaller_<Rejected>
+FACTORY_DEF * HTTPFactory    FACTORY_NAME HTTPCaller       INPUT  FEATURE_TYPE TextEncoder_OUTPUT    TARGET_URL "http:<solidus><solidus>landregistry.data.gov.uk<solidus>app<solidus>root<solidus>qonsole<solidus>query"    HTTP_METHOD POST    SAVE_FILE NO    OUTPUT_FILENAME "<Unused>"    OUTPUT_DIRECTORY "<Unused>"    FILE_EXTENSION "<Unused>"    TARGET_ATTR "_response_body"    FILE_PATH_ATTR "<Unused>"    UPLOAD_FILE "<Unused>"    UPLOAD_BODY ""    MULTIPART_UPLOAD NO    UPLOAD_CONTENT_TYPE "text/plain"    COMBINED_MULTIPART_TABLE    REQUEST_HEADER_TABLE    ADDITIONAL_URL_PARAMETERS q;@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_encoded<closeparen>,HTTPCaller) output;json    AUTH_USERNAME "<Unused>"    AUTH_PASSWORD "<Unused>"    AUTH_METHOD "<Unused>"    TARGET_ATTRIBUTE_ENCODING auto-detect    RESPONSE_HEADER_LIST_ATTR ""    STATUS_CODE_ATTR "_http_status_code"    ERROR_ATTR "_error"    CONNECTION_TIMEOUT_LENGTH 60    TRANSFER_TIMEOUT_LENGTH 90    FOLLOW_REDIRECTS Yes    VERIFY_SSL_CERTIFICATES Yes    NAMED_CONNECTION "<Unused>"    USE_COOKIES No    OUTPUT OUTPUT FEATURE_TYPE HTTPCaller_Output    OUTPUT REJECTED FEATURE_TYPE HTTPCaller_<REJECTED>
 
-FACTORY_DEF * TeeFactory   FACTORY_NAME "HTTPCaller <Rejected> Transformer Output Nuker"   INPUT FEATURE_TYPE HTTPCaller_<Rejected>
+FACTORY_DEF * TeeFactory   FACTORY_NAME "HTTPCaller <REJECTED> Transformer Output Nuker"   INPUT FEATURE_TYPE HTTPCaller_<REJECTED>
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * JSONQueryFactory    FACTORY_NAME JSONExtractor    INPUT  FEATURE_TYPE HTTPCaller_Output    MODE EXTRACT    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_response_body<closeparen>,JSONExtractor)"    QUERIES _results json<openbracket><quote>result<quote><closebracket>    OUTPUT EVALUATED FEATURE_TYPE JSONExtractor_EVALUATED    OUTPUT REJECTED FEATURE_TYPE JSONExtractor_<REJECTED>
@@ -1215,7 +1229,7 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "JSONExtractor_EVALUATED_0_Xa8GxkhP/zU= 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "JSONExtractor_Evaluated (Disabled) Nuker"   INPUT FEATURE_TYPE JSONExtractor_EVALUATED_1_JGk16xycLw8=
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * JSONQueryFactory    FACTORY_NAME JSONFragmenter    INPUT  FEATURE_TYPE JSONExtractor_EVALUATED_0_Xa8GxkhP/zU=    MODE EXPLODE    EXPLODE_FORMAT JSON    REJECT_EMPTY_LISTS YES    EXTRACT_ATTR Yes    JSON_ATTR "_results"    OUTPUT_ATTRIBUTE "_results"    EXPLODE_QUERY "json<openbracket><quote>results<quote><closebracket><openbracket><quote>bindings<quote><closebracket><openbracket>*<closebracket>"    RECURSIVE_FLATTEN YES    OUTPUT EXPLODED FEATURE_TYPE JSONFragmenter_FRAGMENTS    OUTPUT REJECTED FEATURE_TYPE JSONFragmenter_<REJECTED>
+FACTORY_DEF * JSONQueryFactory    FACTORY_NAME JSONFragmenter    INPUT  FEATURE_TYPE JSONExtractor_EVALUATED_0_Xa8GxkhP/zU=    MODE EXPLODE    EXPLODE_FORMAT JSON    REJECT_EMPTY_LISTS YES    EXTRACT_ATTR Yes    JSON_ATTR "_results"    READ_FROM_FILE NO    FILEPATH_OR_URL <Unused>    OUTPUT_ATTRIBUTE "<Unused>"    EXPLODE_QUERY "json<openbracket><quote>results<quote><closebracket><openbracket><quote>bindings<quote><closebracket><openbracket>*<closebracket>"    RECURSIVE_FLATTEN YES    OUTPUT EXPLODED FEATURE_TYPE JSONFragmenter_FRAGMENTS    OUTPUT REJECTED FEATURE_TYPE JSONFragmenter_<REJECTED>
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "JSONFragmenter <REJECTED> Transformer Output Nuker"   INPUT FEATURE_TYPE JSONFragmenter_<REJECTED>
 # -------------------------------------------------------------------------
@@ -1239,4 +1253,7 @@ FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Corr
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
+
+
+
 
