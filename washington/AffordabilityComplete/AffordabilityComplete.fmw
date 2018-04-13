@@ -1,7 +1,7 @@
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <WORKSPACE
 #    Command-line to run this workspace:
-#        /Library/FME/2018.1/fme /tmp/wb_publish_1523545243982_25832/AffordabilityComplete.fmw
+#        /Library/FME/2018.1/fme /tmp/wb_publish_1523631712799_28796/AffordabilityComplete.fmw
 #              --CITY "Portland"
 #    
 #!   ATTR_TYPE_ENCODING="SDF"
@@ -11,14 +11,14 @@
 #!   DESCRIPTION=""
 #!   DESTINATION="NONE"
 #!   DESTINATION_ROUTING_FILE=""
-#!   DOC_EXTENTS="4639.71 1609.78"
+#!   DOC_EXTENTS="4639.71 1851.54"
 #!   DOC_TOP_LEFT="722.735 -1826.44"
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="18451"
-#!   FME_DOCUMENT_GUID="3e4e6e8b-99f1-461b-9361-515208d2df90"
-#!   FME_DOCUMENT_PRIORGUID="c199cfde-343a-4f94-92aa-4cb24c2848e1,c40e80e4-2275-4ccd-9660-9b1a0edc9224,9fd6905b-16af-4566-83cb-6b6e03bce206,505da2c9-bd4c-4eee-acff-61fdbc277902,e033bb93-0994-417b-a547-c87e829b62cc,6cf09653-2015-4326-89d2-de57e8a43ade,df91e69a-486b-48a5-94d9-76871b3cc4ab,8775d5c1-f873-4d26-9721-c35e33541c59,c319faea-b246-498d-98e8-6a2959f0a2df,453c4e22-32f8-4ca7-a2dd-8a9e7666d94d,4fe2e722-8f3c-4e2e-b0c6-67336613ca1d,6a8c1911-f404-4e14-9e77-27466ad45cdf,5b4c2f9d-8bd0-4430-ad0f-3b92340b9154,6fd5fe43-44ba-4aa4-81f3-a9c32ac691db,aa6e413a-c188-4aee-95c6-692bf774b5e8,cfb8ac7e-5b71-4ff2-9864-eff095ae8249,deadb96f-132c-4683-8b57-31534b531d9e,052eb85a-a32b-4180-9a45-6062c9a0132d,fb2c5eee-963c-4824-b38a-0d9840ef9ae9,635f84c7-d722-4e3b-80f0-55fd517bec6c,93a08b0f-56a3-4be1-af83-11940e951f56,726d980e-9318-442d-bb44-fc08a0d49170,54693180-5d44-4fe8-a3e6-724153198e7e,0230167d-ab8f-4315-9dd3-87cdfd800fbf,f5291a22-a725-4b62-8e20-c93542eb4d92,a9377c07-828c-44f7-a22d-78ac392b2ab2,f13f2c76-e96b-4f7e-82c8-332c9f268c3b,d6c7985b-7190-4848-925f-7bf6b567ed4b,24852225-9ea1-4bf7-ada2-7fd9ab0da5bc,f0267198-a31f-4886-9abf-989eb8e63df7,6b712e62-d185-465a-af0e-42ebae28b3bc,bfdb9972-1ea7-4d54-be0e-9db781139530,00c9c5f4-e651-43e8-9c2b-3580da9b17fb,ffab769e-bc2a-4276-80b3-f4aa91980df9,2e45ac99-880f-4280-b265-69bcec97fda3,34d18a22-d3f3-44f5-97c0-952469fc4a03,134c0ced-f2d6-467b-9fe3-365b5a36088e,56206d51-959e-487d-a4ed-0e14d1f9266a,b8c31b92-5496-445c-bcd8-5ed29c1457d5,2087ddde-f32e-40a2-bc16-e937723598b4,9c7adb96-800c-4b06-a60c-954bab200813,f377506a-7bd0-45ff-b5d7-a8c87fdb5821,8b93dc04-b30c-44b1-961f-6182c77367ab,7c1f2384-5fed-43e8-9ae0-56e1d4aeac5e,412d5f68-46fe-47ee-b460-98aab7812dbb"
+#!   FME_DOCUMENT_GUID="9e8627eb-61da-4bcf-ac32-0dd548bff802"
+#!   FME_DOCUMENT_PRIORGUID="c199cfde-343a-4f94-92aa-4cb24c2848e1,c40e80e4-2275-4ccd-9660-9b1a0edc9224,9fd6905b-16af-4566-83cb-6b6e03bce206,505da2c9-bd4c-4eee-acff-61fdbc277902,e033bb93-0994-417b-a547-c87e829b62cc,6cf09653-2015-4326-89d2-de57e8a43ade,df91e69a-486b-48a5-94d9-76871b3cc4ab,8775d5c1-f873-4d26-9721-c35e33541c59,c319faea-b246-498d-98e8-6a2959f0a2df,453c4e22-32f8-4ca7-a2dd-8a9e7666d94d,4fe2e722-8f3c-4e2e-b0c6-67336613ca1d,6a8c1911-f404-4e14-9e77-27466ad45cdf,5b4c2f9d-8bd0-4430-ad0f-3b92340b9154,6fd5fe43-44ba-4aa4-81f3-a9c32ac691db,aa6e413a-c188-4aee-95c6-692bf774b5e8,cfb8ac7e-5b71-4ff2-9864-eff095ae8249,deadb96f-132c-4683-8b57-31534b531d9e,052eb85a-a32b-4180-9a45-6062c9a0132d,fb2c5eee-963c-4824-b38a-0d9840ef9ae9,635f84c7-d722-4e3b-80f0-55fd517bec6c,93a08b0f-56a3-4be1-af83-11940e951f56,726d980e-9318-442d-bb44-fc08a0d49170,54693180-5d44-4fe8-a3e6-724153198e7e,0230167d-ab8f-4315-9dd3-87cdfd800fbf,f5291a22-a725-4b62-8e20-c93542eb4d92,a9377c07-828c-44f7-a22d-78ac392b2ab2,f13f2c76-e96b-4f7e-82c8-332c9f268c3b,d6c7985b-7190-4848-925f-7bf6b567ed4b,24852225-9ea1-4bf7-ada2-7fd9ab0da5bc,f0267198-a31f-4886-9abf-989eb8e63df7,6b712e62-d185-465a-af0e-42ebae28b3bc,bfdb9972-1ea7-4d54-be0e-9db781139530,00c9c5f4-e651-43e8-9c2b-3580da9b17fb,ffab769e-bc2a-4276-80b3-f4aa91980df9,2e45ac99-880f-4280-b265-69bcec97fda3,34d18a22-d3f3-44f5-97c0-952469fc4a03,134c0ced-f2d6-467b-9fe3-365b5a36088e,56206d51-959e-487d-a4ed-0e14d1f9266a,b8c31b92-5496-445c-bcd8-5ed29c1457d5,2087ddde-f32e-40a2-bc16-e937723598b4,9c7adb96-800c-4b06-a60c-954bab200813,f377506a-7bd0-45ff-b5d7-a8c87fdb5821,8b93dc04-b30c-44b1-961f-6182c77367ab,7c1f2384-5fed-43e8-9ae0-56e1d4aeac5e,412d5f68-46fe-47ee-b460-98aab7812dbb,3e4e6e8b-99f1-461b-9361-515208d2df90"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -27,7 +27,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2018.1.0.0 (20180405 - Build 18451 - macosx)"
-#!   LAST_SAVE_DATE="2018-04-12T11:00:43"
+#!   LAST_SAVE_DATE="2018-04-13T11:01:52"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -64,7 +64,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_type string fme_basename string multi_reader_keyword string multi_reader_type string fme_rotation string multi_reader_id string csv_number_of_fields uint32 fme_color string fme_feature_type string csv_type string fme_text_string string csv_total_number_of_columns uint32 fme_primary_axis string multi_reader_full_id string fme_dataset string csv_line_number uint64 fme_geometry string fme_text_size string csv_skipped_line string fme_sweep_angle string fme_fill_color string fme_start_angle string fme_secondary_axis string"
+#!   EXPOSABLE_ATTRS="multi_reader_keyword string multi_reader_type string csv_line_number uint64 fme_rotation string multi_reader_full_id string csv_type string fme_secondary_axis string fme_dataset string csv_skipped_line string fme_start_angle string fme_text_size string fme_primary_axis string fme_feature_type string fme_basename string fme_fill_color string fme_geometry string fme_color string fme_sweep_angle string multi_reader_id string fme_text_string string csv_number_of_fields uint32 csv_total_number_of_columns uint32 fme_type string"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -122,7 +122,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="powerpoint_type {FME_GEN_GEOMETRY}"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="powerpoint_font_bold text fme_start_angle float powerpoint_font_name text powerpoint_heading_text text powerpoint_image_width integer powerpoint_xformer_name text fme_rotation float fme_basename text powerpoint_table_column_width integer powerpoint_justification text powerpoint_table text fme_primary_axis float fme_secondary_axis float powerpoint_heading_level text fme_type text powerpoint_measurement_units text powerpoint_paragraph_style text powerpoint_bullet_indent integer powerpoint_table_column_value text fme_sweep_angle float powerpoint_table_column_header text powerpoint_type text fme_feature_type text powerpoint_bullet_text text fme_text_size float powerpoint_template_file text fme_fill_color text powerpoint_font_size integer powerpoint_styler_id text fme_color text fme_dataset text fme_geometry text powerpoint_table_style text powerpoint_font_strike text powerpoint_bullet_ordered text powerpoint_paragraph_markdown text powerpoint_break_count integer powerpoint_font_underline text fme_text_string text powerpoint_font_color text powerpoint_font_italic text powerpoint_paragraph_text text powerpoint_image_source_type text powerpoint_image_filename text"
+#!   EXPOSABLE_ATTRS="powerpoint_bullet_text text powerpoint_table_column_value text powerpoint_font_bold text powerpoint_image_filename text powerpoint_font_underline text powerpoint_heading_text text fme_text_size float powerpoint_font_strike text fme_dataset text powerpoint_image_width integer powerpoint_bullet_indent integer powerpoint_justification text powerpoint_paragraph_text text powerpoint_bullet_ordered text fme_start_angle float powerpoint_table text powerpoint_xformer_name text powerpoint_paragraph_style text powerpoint_font_italic text powerpoint_font_name text fme_fill_color text powerpoint_template_file text fme_color text powerpoint_font_size integer fme_type text fme_primary_axis float powerpoint_heading_level text fme_basename text fme_geometry text fme_sweep_angle float fme_feature_type text powerpoint_break_count integer powerpoint_font_color text powerpoint_table_column_width integer fme_rotation float powerpoint_table_column_header text powerpoint_image_source_type text powerpoint_measurement_units text fme_secondary_axis float powerpoint_styler_id text powerpoint_table_style text fme_text_string text powerpoint_paragraph_markdown text powerpoint_type text"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -157,7 +157,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="KML21_INFORMATION_POINT_ICON &quot;&quot; KML21_OPACITY &quot;&quot; KML21_FILL_OPACITY &quot;&quot; KML21_PEN_OPACITY &quot;&quot; KML21_ICON_COLOR &quot;&quot; KML21_FILL_COLOR &quot;&quot; KML21_PEN_COLOR &quot;&quot; KML21_SORT_BY_ATTRIBUTE &quot;&quot; KML21_ATTR_IN_DESCRIPTION &quot;&quot; KML21_HTML_DESCRIPTIONS &quot;&quot; KML21_DOCUMENT_FILENAME &quot;&quot; KML21_CREATE_FOLDER_FOR_FEATURE_TYPE &quot;&quot;"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="kml_lookat_gx_timespan_end kml_datetime kml_extended_data_xml kml_buffer kml_lod_min_fade_extent kml_real64 kml_target_style_highlight kml_buffer kml_lookat_altitude_mode kml_char(20) kml_extrude kml_int16 kml_gx_latlonaltbox_altitude_mode kml_char(50) kml_snippet_raw_text kml_buffer kml_liststyle_list_item_type kml_char(50) kml_screenxy_yunits kml_char(20) kml_tour_stop_tour_name kml_buffer kml_tour_stop_view_tilt kml_char(25) kml_icon_refresh_mode kml_char(50) fme_pen_opacity kml_real64 kml_tour_stop_view_range kml_char(25) kml_overlayxy_xunits kml_char(20) kml_rotationxy_y kml_real64 fme_start_angle kml_real64 kml_screenxy_y kml_real64 kml_link_view_bound_scale kml_real64 kml_balloonstyle_raw_text kml_buffer kml_labelstyle_color_mode kml_char(20) kml_max_session_length kml_real64 kml_phone_number kml_buffer kml_gx_timestamp_when kml_datetime kml_data{}.value kml_buffer kml_lookat_gx_timespan_begin kml_datetime kml_overlayxy_y kml_real64 kml_icon_color kml_char(50) kml_lod_max_fade_extent kml_real64 kml_icon_view_refresh_time kml_int16 kml_screenxy_x kml_real64 kml_lookat_heading kml_real64 kml_balloon_text_opacity kml_real64 kml_balloon_color kml_char(10) kml_scale_x kml_real64 kml_labelstyle_color kml_char(10) kml_camera_altitude_mode kml_char(50) kml_icon_href kml_buffer kml_hotspot_y kml_int16 kml_icon_temp_file_location kml_buffer kml_data{}.display_name_raw_text kml_buffer kml_schema_url kml_buffer kml_size_x kml_real64 kml_link_http_query kml_buffer kml_gx_flyto_mode kml_char(10) kml_tour_stop_tour_duration kml_int16 kml_latlonaltbox_north kml_real64 kml_address kml_buffer fme_dataset kml_char(50) kml_hotspot_x kml_int16 kml_orientation_heading kml_real64 kml_size_yunits kml_char(20) kml_atom_link_href kml_buffer kml_extended_data_xmlns_prefix kml_buffer kml_linestyle_label_visibility kml_boolean kml_imagepyramid_gridorigin kml_buffer kml_latlonaltbox_max_altitude kml_real64 kml_latlonaltbox_min_altitude kml_real64 fme_primary_axis kml_real64 kml_tour kml_buffer kml_balloon_text_color kml_char(10) kml_open kml_int16 kml_color kml_char(8) kml_latlonaltbox_west kml_real64 kml_latlonbox_east kml_real64 kml_linestyle_width kml_real64 fme_type kml_char(50) kml_latlonbox_rotation kml_real64 kml_gx_timespan_begin kml_datetime fme_fill_opacity kml_real64 kml_timespan_end kml_datetime kml_viewvolume_near kml_int16 kml_description kml_buffer kml_description_raw_text kml_buffer kml_size_xunits kml_char(20) kml_lod_min_lod_pixels kml_real64 kml_balloon_opacity kml_real64 kml_overlayxy_x kml_real64 kml_timespan_begin kml_datetime kml_link_refresh_interval kml_real64 kml_link_view_refresh_mode kml_char(50) kml_extended_data_xmlns_url kml_buffer kml_liststyle_item_icon kml_buffer kml_atom_author_email kml_buffer kml_camera_gx_timespan_end kml_datetime kml_fly_to_view kml_int16 kml_snippet kml_buffer fme_basename kml_char(50) kml_link_href kml_buffer kml_rotationxy_x kml_real64 kml_imagepyramid_maxheight kml_int16 kml_imagepyramid_tilesize kml_real64 kml_linestyle_color_mode kml_char(20) kml_liststyle_item_icon{}.state kml_char(50) kml_link_refresh_mode kml_char(50) kml_screenxy_xunits kml_char(20) kml_polystyle_fill kml_real64 kml_gx_timespan_end kml_datetime kml_imagepyramid_maxwidth kml_int16 kml_data{}.display_name kml_buffer kml_href kml_buffer kml_iconstyle_color kml_char(10) kml_viewvolume_rightfov kml_int16 kml_camera_gx_timespan_begin kml_datetime kml_roll kml_real64 kml_visibility kml_int16 kml_target_href kml_buffer kml_linestyle_physical_width kml_real64 kml_balloonstyle_bgcolor kml_char(10) kml_latlonbox_south kml_real64 kml_lookat_range kml_real64 kml_lod_max_lod_pixels kml_real64 kml_link_snippet_max_lines kml_int16 kml_tour_stop_flyto_duration kml_int16 kml_tour_stop_delay_type kml_char(10) kml_rotationxy_xunits kml_char(20) kml_description_text kml_buffer kml_name kml_buffer kml_iconstyle_heading kml_real64 kml_rotationxy_yunits kml_char(20) kml_icon_refresh_interval kml_int16 kml_viewvolume_leftfov kml_int16 kml_icon_view_format kml_buffer kml_polystyle_color_mode kml_char(20) kml_hotspot_xunits kml_char(20) kml_icon_view_bound_scale kml_real64 kml_lookat_gx_timestamp_when kml_datetime kml_lookat_latitude kml_real64 kml_lookat_tilt kml_real64 kml_target_style kml_buffer kml_scale_y kml_real64 kml_liststyle_bgcolor kml_char(50) kml_parent kml_buffer kml_scale_z kml_real64 kml_camera_roll kml_real64 kml_location_longitude kml_real64 kml_document_path kml_buffer kml_label_opacity kml_real64 kml_attribute_table_title kml_buffer kml_update_mode kml_char(10) kml_viewvolume_bottomfov kml_int16 kml_latlonbox_west kml_real64 kml_label_color kml_char(50) kml_size_y kml_real64 kml_cookie kml_buffer kml_rotation kml_real64 kml_latlonaltbox_south kml_real64 kml_common_style kml_buffer kml_target_style_normal kml_buffer kml_animated_update kml_buffer kml_balloonstyle_text_color kml_char(10) kml_link_view_refresh_time kml_int16 kml_gx_duration kml_int16 kml_camera_longitude kml_real64 kml_style_id kml_buffer kml_icon kml_buffer fme_color kml_char(50) kml_link_view_format kml_buffer kml_overlayxy_yunits kml_char(20) kml_tour_stop_view_heading kml_char(25) fme_rotation kml_real64 kml_latlonaltbox_altitude_mode kml_char(50) kml_labelstyle_scale kml_real64 kml_atom_link_rel kml_buffer kml_camera_altitude kml_real64 kml_camera_tilt kml_real64 kml_link_description kml_buffer kml_viewvolume_topfov kml_int16 kml_draw_order kml_int16 kml_tessellate kml_int16 kml_timestamp_when kml_datetime kml_tour_stop_display_balloon kml_char(3) kml_schema_data{}.value kml_buffer kml_id kml_buffer fme_feature_type kml_char(50) kml_orientation_tilt kml_real64 kml_lookat_altitude kml_real64 kml_shape kml_buffer kml_style_url_normal kml_buffer kml_style_url_highlight kml_buffer kml_orientation_roll kml_real64 kml_location_altitude kml_real64 kml_altitude kml_real64 kml_gx_balloon_visibility kml_int16 kml_expires kml_datetime kml_polystyle_color kml_char(10) kml_icon_opacity kml_real64 kml_iconstyle_scale kml_real64 kml_location_latitude kml_real64 kml_gx_altitude_mode kml_char(50) kml_tour_stop_delay_duration kml_int16 kml_icon_view_refresh_mode kml_char(50) kml_liststyle_item_icon{}.href kml_buffer kml_altitude_mode kml_char(50) kml_balloonstyle_text kml_buffer kml_tour_stop_flyto_mode kml_char(20) kml_min_refresh_period kml_real64 kml_document kml_buffer kml_camera_heading kml_real64 kml_iconstyle_color_mode kml_char(20) kml_icon_http_query kml_buffer kml_link_name kml_buffer kml_polystyle_outline kml_int16 fme_opacity kml_real64 kml_linestyle_color kml_char(10) fme_secondary_axis kml_real64 kml_latlonaltbox_east kml_char(255) kml_sort_value kml_buffer kml_tour_stop_view_perspective kml_char(15) kml_link_snippet kml_buffer kml_raw_text kml_buffer fme_geometry kml_char(50) fme_text_string kml_char(50) kml_camera_gx_timestamp_when kml_datetime fme_fill_color kml_char(50) kml_refresh_visibility kml_int16 kml_document_href kml_buffer kml_create_info_point kml_char(3) kml_gx_play_mode kml_char(20) kml_gx_camera_altitude_mode kml_char(50) kml_camera_latitude kml_real64 kml_gx_lookat_altitude_mode kml_char(50) kml_style_url kml_buffer kml_data{}.name kml_buffer kml_atom_author_name kml_buffer kml_message kml_buffer kml_hotspot_yunits kml_char(20) kml_lookat_longitude kml_real64 fme_sweep_angle kml_real64 kml_schema_data{}.name kml_buffer fme_text_size kml_real64 kml_latlonbox_north kml_real64"
+#!   EXPOSABLE_ATTRS="kml_description_raw_text kml_buffer kml_lod_min_fade_extent kml_real64 kml_tour_stop_view_range kml_char(25) kml_linestyle_label_visibility kml_boolean kml_latlonaltbox_west kml_real64 kml_link_view_refresh_time kml_int16 kml_gx_camera_altitude_mode kml_char(50) kml_tour_stop_view_perspective kml_char(15) kml_link_http_query kml_buffer kml_overlayxy_yunits kml_char(20) kml_atom_link_rel kml_buffer kml_tour_stop_display_balloon kml_char(3) kml_gx_lookat_altitude_mode kml_char(50) kml_link_refresh_mode kml_char(50) kml_gx_timespan_begin kml_datetime kml_lookat_longitude kml_real64 kml_tour kml_buffer kml_extended_data_xmlns_prefix kml_buffer kml_liststyle_list_item_type kml_char(50) kml_phone_number kml_buffer kml_roll kml_real64 kml_style_url_normal kml_buffer kml_viewvolume_bottomfov kml_int16 kml_schema_data{}.name kml_buffer kml_latlonbox_south kml_real64 kml_camera_gx_timespan_begin kml_datetime fme_sweep_angle kml_real64 kml_size_x kml_real64 kml_tour_stop_view_heading kml_char(25) kml_link_view_format kml_buffer kml_lookat_latitude kml_real64 kml_linestyle_width kml_real64 kml_update_mode kml_char(10) kml_style_url kml_buffer kml_lod_min_lod_pixels kml_real64 fme_text_string kml_char(50) kml_balloon_opacity kml_real64 kml_hotspot_x kml_int16 kml_rotationxy_xunits kml_char(20) kml_animated_update kml_buffer kml_viewvolume_topfov kml_int16 kml_gx_balloon_visibility kml_int16 fme_rotation kml_real64 kml_tour_stop_delay_duration kml_int16 kml_visibility kml_int16 kml_latlonbox_rotation kml_real64 kml_hotspot_xunits kml_char(20) fme_type kml_char(50) kml_balloonstyle_text kml_buffer kml_min_refresh_period kml_real64 kml_liststyle_item_icon{}.href kml_buffer kml_icon_view_format kml_buffer kml_tour_stop_tour_name kml_buffer kml_link_href kml_buffer kml_balloonstyle_text_color kml_char(10) kml_lookat_altitude_mode kml_char(20) kml_iconstyle_scale kml_real64 kml_atom_link_href kml_buffer kml_style_id kml_buffer kml_tour_stop_delay_type kml_char(10) kml_lod_max_fade_extent kml_real64 kml_scale_x kml_real64 kml_lookat_gx_timespan_begin kml_datetime kml_extended_data_xml kml_buffer kml_orientation_roll kml_real64 kml_lookat_range kml_real64 kml_iconstyle_color_mode kml_char(20) kml_camera_latitude kml_real64 kml_label_opacity kml_real64 kml_lookat_heading kml_real64 fme_feature_type kml_char(50) kml_latlonaltbox_east kml_char(255) kml_overlayxy_xunits kml_char(20) kml_liststyle_item_icon{}.state kml_char(50) kml_iconstyle_heading kml_real64 kml_data{}.display_name kml_buffer kml_schema_data{}.value kml_buffer kml_snippet_raw_text kml_buffer kml_camera_altitude kml_real64 kml_gx_altitude_mode kml_char(50) kml_link_description kml_buffer kml_location_longitude kml_real64 kml_link_snippet kml_buffer kml_lookat_gx_timespan_end kml_datetime kml_balloonstyle_bgcolor kml_char(10) kml_orientation_heading kml_real64 kml_gx_timestamp_when kml_datetime kml_name kml_buffer kml_document_href kml_buffer kml_timespan_end kml_datetime kml_latlonaltbox_north kml_real64 kml_gx_play_mode kml_char(20) kml_data{}.value kml_buffer kml_extended_data_xmlns_url kml_buffer kml_polystyle_outline kml_int16 kml_linestyle_color kml_char(10) fme_fill_opacity kml_real64 kml_cookie kml_buffer kml_viewvolume_near kml_int16 kml_link_view_bound_scale kml_real64 kml_scale_z kml_real64 kml_latlonaltbox_altitude_mode kml_char(50) kml_icon kml_buffer kml_location_altitude kml_real64 kml_screenxy_y kml_real64 kml_icon_href kml_buffer kml_expires kml_datetime kml_latlonbox_west kml_real64 kml_camera_tilt kml_real64 kml_icon_refresh_mode kml_char(50) kml_screenxy_x kml_real64 kml_icon_view_refresh_mode kml_char(50) kml_lookat_gx_timestamp_when kml_datetime kml_icon_color kml_char(50) kml_label_color kml_char(50) kml_snippet kml_buffer fme_secondary_axis kml_real64 kml_timestamp_when kml_datetime kml_labelstyle_color kml_char(10) kml_balloon_color kml_char(10) kml_draw_order kml_int16 kml_raw_text kml_buffer kml_latlonaltbox_south kml_real64 kml_orientation_tilt kml_real64 kml_altitude_mode kml_char(50) kml_tessellate kml_int16 kml_tour_stop_flyto_mode kml_char(20) kml_open kml_int16 kml_screenxy_xunits kml_char(20) kml_viewvolume_leftfov kml_int16 kml_linestyle_physical_width kml_real64 kml_lookat_tilt kml_real64 fme_dataset kml_char(50) kml_create_info_point kml_char(3) kml_target_style kml_buffer kml_description_text kml_buffer kml_scale_y kml_real64 kml_schema_url kml_buffer kml_location_latitude kml_real64 kml_icon_temp_file_location kml_buffer kml_parent kml_buffer kml_balloon_text_opacity kml_real64 kml_overlayxy_x kml_real64 kml_lod_max_lod_pixels kml_real64 fme_basename kml_char(50) kml_target_style_normal kml_buffer kml_labelstyle_scale kml_real64 kml_gx_duration kml_int16 kml_liststyle_item_icon kml_buffer kml_latlonbox_north kml_real64 kml_polystyle_fill kml_real64 kml_linestyle_color_mode kml_char(20) kml_iconstyle_color kml_char(10) kml_lookat_altitude kml_real64 kml_size_xunits kml_char(20) kml_link_refresh_interval kml_real64 kml_rotationxy_y kml_real64 kml_viewvolume_rightfov kml_int16 kml_gx_latlonaltbox_altitude_mode kml_char(50) kml_latlonbox_east kml_real64 kml_fly_to_view kml_int16 kml_extrude kml_int16 kml_camera_heading kml_real64 kml_message kml_buffer kml_polystyle_color_mode kml_char(20) kml_latlonaltbox_min_altitude kml_real64 fme_color kml_char(50) kml_link_snippet_max_lines kml_int16 kml_address kml_buffer kml_shape kml_buffer kml_atom_author_name kml_buffer kml_href kml_buffer kml_latlonaltbox_max_altitude kml_real64 kml_imagepyramid_tilesize kml_real64 fme_pen_opacity kml_real64 fme_opacity kml_real64 kml_camera_gx_timestamp_when kml_datetime kml_hotspot_y kml_int16 kml_rotation kml_real64 kml_link_name kml_buffer kml_tour_stop_tour_duration kml_int16 fme_fill_color kml_char(50) fme_primary_axis kml_real64 kml_icon_view_refresh_time kml_int16 kml_target_href kml_buffer kml_target_style_highlight kml_buffer kml_link_view_refresh_mode kml_char(50) kml_icon_opacity kml_real64 kml_imagepyramid_maxwidth kml_int16 kml_screenxy_yunits kml_char(20) kml_camera_gx_timespan_end kml_datetime kml_tour_stop_view_tilt kml_char(25) kml_document kml_buffer kml_gx_flyto_mode kml_char(10) kml_overlayxy_y kml_real64 kml_size_y kml_real64 kml_camera_roll kml_real64 fme_geometry kml_char(50) kml_camera_longitude kml_real64 kml_color kml_char(8) kml_data{}.name kml_buffer kml_imagepyramid_maxheight kml_int16 kml_imagepyramid_gridorigin kml_buffer kml_icon_refresh_interval kml_int16 kml_id kml_buffer kml_max_session_length kml_real64 kml_rotationxy_x kml_real64 kml_tour_stop_flyto_duration kml_int16 kml_common_style kml_buffer fme_start_angle kml_real64 fme_text_size kml_real64 kml_polystyle_color kml_char(10) kml_rotationxy_yunits kml_char(20) kml_icon_http_query kml_buffer kml_gx_timespan_end kml_datetime kml_document_path kml_buffer kml_style_url_highlight kml_buffer kml_altitude kml_real64 kml_labelstyle_color_mode kml_char(20) kml_timespan_begin kml_datetime kml_refresh_visibility kml_int16 kml_balloon_text_color kml_char(10) kml_balloonstyle_raw_text kml_buffer kml_description kml_buffer kml_camera_altitude_mode kml_char(50) kml_attribute_table_title kml_buffer kml_icon_view_bound_scale kml_real64 kml_hotspot_yunits kml_char(20) kml_sort_value kml_buffer kml_size_yunits kml_char(20) kml_liststyle_bgcolor kml_char(50) kml_atom_author_email kml_buffer kml_data{}.display_name_raw_text kml_buffer"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP ogc_layer_group ogc_appearance_group%ogc_advanced_group Feature Type&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP ogc_appearance_group KML21_FILL_COLOR%KML21_FILL_OPACITY%KML21_PEN_COLOR%KML21_PEN_OPACITY%KML21_SORT_BY_ATTRIBUTE%KML21_INFORMATION_POINT_ICON%KML21_ICON_COLOR Appearance&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP ogc_advanced_group KML21_ATTR_IN_DESCRIPTION%KML21_DOCUMENT_FILENAME%KML21_CREATE_FOLDER_FOR_FEATURE_TYPE%KML21_HTML_DESCRIPTIONS Advanced&quot; &quot;&quot; &quot;GUI OPTIONAL ICONPICK KML21_INFORMATION_POINT_ICON icons Information Point Icon&quot; &quot;&quot; &quot;GUI OPTIONAL COLOR_PICK KML21_ICON_COLOR Icon Color&quot; &quot;&quot; &quot;GUI OPTIONAL COLOR_PICK KML21_FILL_COLOR Fill Color&quot; &quot;&quot; &quot;GUI OPTIONAL FLOAT KML21_FILL_OPACITY Fill Opacity&quot; &quot;&quot; &quot;GUI OPTIONAL COLOR_PICK KML21_PEN_COLOR Pen Color&quot; &quot;&quot; &quot;GUI OPTIONAL FLOAT KML21_PEN_OPACITY Pen Opacity&quot; &quot;&quot; &quot;GUI OPTIONAL ATTR KML21_SORT_BY_ATTRIBUTE \&quot; \&quot; _ Sort By Attribute&quot; &quot;&quot; &quot;GUI OPTIONAL CHOICE KML21_HTML_DESCRIPTIONS yes%no Use HTML in Description Balloon&quot; &quot;&quot; &quot;GUI OPTIONAL CHOICE KML21_ATTR_IN_DESCRIPTION yes%no Create Attribute Table in Description Balloon&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT KML21_DOCUMENT_FILENAME Parent Document File Name&quot; &quot;&quot; &quot;GUI CHOICE KML21_CREATE_FOLDER_FOR_FEATURE_TYPE yes%no Create Folder for Feature Type&quot; yes "
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -216,7 +216,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="false"
-#!   EXPOSABLE_ATTRS="obj_type string fme_geometry string fme_secondary_axis string fme_basename string fme_text_string string fme_type string fme_feature_type string fme_sweep_angle string fme_color string fme_text_size string fme_primary_axis string fme_start_angle string fme_rotation string fme_fill_color string fme_dataset string"
+#!   EXPOSABLE_ATTRS="fme_color string fme_start_angle string obj_type string fme_text_string string fme_secondary_axis string fme_text_size string fme_feature_type string fme_sweep_angle string fme_primary_axis string fme_rotation string fme_dataset string fme_fill_color string fme_basename string fme_type string fme_geometry string"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -477,6 +477,114 @@
 #!   FORMAT_TYPE="string"
 #!   FME_TYPE="fme_decimal(width,decimal)"
 #!   FORMAT="CSV2"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="POWERPOINT"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="POWERPOINT"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="POWERPOINT"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="POWERPOINT"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="POWERPOINT"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="POWERPOINT"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="POWERPOINT"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="POWERPOINT"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="POWERPOINT"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="POWERPOINT"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="integer"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="POWERPOINT"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="POWERPOINT"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="POWERPOINT"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="float"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="POWERPOINT"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="float"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="POWERPOINT"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="POWERPOINT"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="POWERPOINT"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="boolean"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="POWERPOINT"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
@@ -760,114 +868,6 @@
 #!   FME_TYPE="fme_boolean"
 #!   FORMAT="OGCKML"
 #! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text"
-#!   FME_TYPE="fme_buffer"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text"
-#!   FME_TYPE="fme_char(width)"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text"
-#!   FME_TYPE="fme_varchar(width)"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text"
-#!   FME_TYPE="fme_datetime"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text"
-#!   FME_TYPE="fme_date"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text"
-#!   FME_TYPE="fme_time"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text"
-#!   FME_TYPE="fme_int16"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text"
-#!   FME_TYPE="fme_uint16"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text"
-#!   FME_TYPE="fme_int32"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text"
-#!   FME_TYPE="fme_uint32"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="integer"
-#!   FME_TYPE="fme_uint32"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text"
-#!   FME_TYPE="fme_int64"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text"
-#!   FME_TYPE="fme_uint64"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="float"
-#!   FME_TYPE="fme_real32"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="float"
-#!   FME_TYPE="fme_real64"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text"
-#!   FME_TYPE="fme_uint8"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text"
-#!   FME_TYPE="fme_decimal(width,decimal)"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="boolean"
-#!   FME_TYPE="fme_boolean"
-#!   FORMAT="POWERPOINT"
-#! />
 #! </DATA_TYPES>
 #! <GEOM_TYPES>
 #! <GEOM_TYPE
@@ -971,6 +971,102 @@
 #!   FORMAT_TYPE="csv_none"
 #!   FME_TYPE="fme_point_cloud"
 #!   FORMAT="CSV2"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="powerpoint_image"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="POWERPOINT"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="powerpoint_paragraph_text"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="POWERPOINT"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="powerpoint_bullet_text"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="POWERPOINT"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="powerpoint_heading_text"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="POWERPOINT"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="powerpoint_none"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="POWERPOINT"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="powerpoint_none"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="POWERPOINT"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="powerpoint_none"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="POWERPOINT"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="powerpoint_none"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="POWERPOINT"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="powerpoint_none"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="POWERPOINT"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="powerpoint_none"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="POWERPOINT"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="powerpoint_none"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="POWERPOINT"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="powerpoint_none"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="POWERPOINT"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="powerpoint_none"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="POWERPOINT"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="powerpoint_none"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="POWERPOINT"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="powerpoint_none"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="POWERPOINT"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="powerpoint_none"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="POWERPOINT"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
@@ -1151,102 +1247,6 @@
 #!   FORMAT_TYPE="kml_no_geom"
 #!   FME_TYPE="fme_feature_table"
 #!   FORMAT="OGCKML"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="powerpoint_image"
-#!   FME_TYPE="fme_raster"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="powerpoint_paragraph_text"
-#!   FME_TYPE="fme_text"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="powerpoint_bullet_text"
-#!   FME_TYPE="fme_text"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="powerpoint_heading_text"
-#!   FME_TYPE="fme_text"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="powerpoint_none"
-#!   FME_TYPE="fme_no_geom"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="powerpoint_none"
-#!   FME_TYPE="fme_point"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="powerpoint_none"
-#!   FME_TYPE="fme_line"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="powerpoint_none"
-#!   FME_TYPE="fme_area"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="powerpoint_none"
-#!   FME_TYPE="fme_ellipse"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="powerpoint_none"
-#!   FME_TYPE="fme_arc"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="powerpoint_none"
-#!   FME_TYPE="fme_rounded_rectangle"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="powerpoint_none"
-#!   FME_TYPE="fme_collection"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="powerpoint_none"
-#!   FME_TYPE="fme_point_cloud"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="powerpoint_none"
-#!   FME_TYPE="fme_solid"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="powerpoint_none"
-#!   FME_TYPE="fme_surface"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="powerpoint_none"
-#!   FME_TYPE="fme_feature_table"
-#!   FORMAT="POWERPOINT"
 #! />
 #! </GEOM_TYPES>
 #! <FEATURE_TYPES>
@@ -1519,6 +1519,20 @@
 #! />
 #! </GLOBAL_PARAMETERS>
 #! <COMMENTS>
+#! <COMMENT
+#!   IDENTIFIER="50"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;helvetica neue&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;big change&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="1761.0176101761012 25.106344670878741"
+#!   TOP_LEFT="1761.0176101761012 25.106344670878741"
+#!   BOTTOM_RIGHT="2584.9053671259603 26.106344670878741"
+#!   BOUNDING_RECT="1761.0176101761012 25.106344670878741 823.88775694985907 -1"
+#!   ORDER="500000000000386.63"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.78431372549019607,0.19607843137254902"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="4"
+#! />
 #! </COMMENTS>
 #! <CONSTANTS>
 #! </CONSTANTS>
@@ -1535,7 +1549,7 @@
 #!   BOUNDING_RECT="2901.5122551151103 -574.95138309083984 940 205"
 #!   STICKY="true"
 #!   COLOUR="0.42745098039215684,0.52941176470588236,0.73725490196078436"
-#!   CONTENTS="109 70 8 52 108 65 77 62 61 82 "
+#!   CONTENTS="109 77 61 62 108 70 65 8 52 82 "
 #! >
 #!     <BOOKMARK_FEAT NAME="Extruder" SOURCE_NODE="70" SOURCE_PORT_DESC="fi 0 "/>
 #!     <BOOKMARK_FEAT NAME="Styler" SOURCE_NODE="77" SOURCE_PORT_DESC="fo 0 OUTPUT"/>
@@ -1569,7 +1583,7 @@
 #!   BOUNDING_RECT="2883.451285896439 -1125.7761034292648 940 205"
 #!   STICKY="true"
 #!   COLOUR="0.015686274509803921,0.72549019607843135,0.60784313725490191"
-#!   CONTENTS="93 13 23 11 96 94 14 "
+#!   CONTENTS="11 13 23 96 94 14 93 "
 #! >
 #!     <BOOKMARK_FEAT NAME="Table Builder" SOURCE_NODE="14" SOURCE_PORT_DESC="fi 0 "/>
 #!     <BOOKMARK_FEAT NAME="Table Builder Output" SOURCE_NODE="13" SOURCE_PORT_DESC="fo 0 OUTPUT"/>
@@ -1618,7 +1632,7 @@
 #!   BOUNDING_RECT="4080.7466912293567 -1066.7566987307623 669.52808424567229 295"
 #!   STICKY="true"
 #!   COLOUR="0.050980392156862744,0.792156862745098,0.70588235294117652"
-#!   CONTENTS="7 24 21 12 16 "
+#!   CONTENTS="24 21 12 16 7 "
 #! >
 #!     <BOOKMARK_FEAT NAME="PowerPointStyler for Map" SOURCE_NODE="16" SOURCE_PORT_DESC="fi 0 "/>
 #!     <BOOKMARK_FEAT NAME="PowerPointStyler for Table" SOURCE_NODE="12" SOURCE_PORT_DESC="fi 0 "/>
@@ -1635,7 +1649,7 @@
 #!   BOUNDING_RECT="4081.5967080170567 -812.10946880304493 682.86002745939186 205"
 #!   STICKY="true"
 #!   COLOUR="0.72941176470588232,0.058823529411764705,0.98039215686274506"
-#!   CONTENTS="53 64 63 60 51 "
+#!   CONTENTS="60 51 63 53 64 "
 #! >
 #!     <BOOKMARK_FEAT NAME="KMLStyler and Writer" SOURCE_NODE="60" SOURCE_PORT_DESC="fi 0 "/>
 #! </BOOKMARK>
@@ -1678,7 +1692,7 @@
 #!   BOUNDING_RECT="3828.3707906861114 -693.30781634681227 1325.6807498292928 736.21068347434391"
 #!   STICKY="true"
 #!   COLOUR="0.37254901960784315,0.35294117647058826,0.38039215686274508"
-#!   CONTENTS="109 65 77 "
+#!   CONTENTS="109 77 65 "
 #! >
 #! </BOOKMARK>
 #! </BOOKMARKS>
@@ -1732,8 +1746,8 @@
 #!   IDENTIFIER="4"
 #!   TYPE="FeatureJoiner"
 #!   VERSION="1000"
-#!   POSITION="1731.0173101731011 -336.89662535882155"
-#!   BOUNDING_RECT="1731.0173101731011 -336.89662535882155 823.88775694985907 71"
+#!   POSITION="1761.0176101761012 -111.89437533632133"
+#!   BOUNDING_RECT="1761.0176101761012 -111.89437533632133 823.88775694985907 71"
 #!   ORDER="500000000000156.25"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -2802,7 +2816,7 @@
 #!   BOUNDING_RECT="2111 -520 1195 531"
 #!   STICKY="true"
 #!   COLOUR="0.6588235294117647,0.20392156862745098,0.18431372549019609"
-#!   CONTENTS="10 42 7 37 "
+#!   CONTENTS="42 10 37 7 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -2815,7 +2829,7 @@
 #!   BOUNDING_RECT="1979 -1088 2036.6099999999999 625"
 #!   STICKY="true"
 #!   COLOUR="0.48627450980392156,0.53725490196078429,0.42745098039215684"
-#!   CONTENTS="44 38 45 5 43 4 22 6 11 23 "
+#!   CONTENTS="22 45 11 6 44 43 5 23 4 38 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -2867,7 +2881,7 @@
 #!   BOUNDING_RECT="1871 -1991 1109 385"
 #!   STICKY="true"
 #!   COLOUR="0.93725490196078431,0.66666666666666663,0.99215686274509807"
-#!   CONTENTS="31 16 15 "
+#!   CONTENTS="16 31 15 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -2906,7 +2920,7 @@
 #!   BOUNDING_RECT="1678 -1837 2645 1115"
 #!   STICKY="true"
 #!   COLOUR="0.81960784313725488,0.12156862745098039,0.55686274509803924"
-#!   CONTENTS="34 18 31 14 20 51 16 15 52 36 32 17 35 53 19 33 55 "
+#!   CONTENTS="55 36 35 51 52 18 19 16 17 34 31 20 14 33 53 32 15 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -2919,7 +2933,7 @@
 #!   BOUNDING_RECT="1863 -2461 1119 388"
 #!   STICKY="true"
 #!   COLOUR="0.6588235294117647,0.42745098039215684,0.76470588235294112"
-#!   CONTENTS="20 35 19 "
+#!   CONTENTS="35 19 20 "
 #! >
 #! </BOOKMARK>
 #! </BOOKMARKS>
@@ -3282,9 +3296,9 @@
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="_stdevp" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_fill_color" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_stdevp" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="LIST_ATTRS" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="REMOVE_ATTRS" PARM_VALUE="GC_min,_part_number,GC_count,_geometry_name,GC_Color_Scheme,GC_RangeVals,GC_Value,rval,GC_Binning_Method,GC_tcount,GC_Number_of_Bands,GC_range"/>
@@ -4426,7 +4440,7 @@ MACRO $(GradedColorizer_WORKSPACE_NAME)_Number_of_Bands 10
 MACRO $(GradedColorizer_WORKSPACE_NAME)_RangeVals 
 DEFAULT_MACRO GradedColorizer_WORKSPACE_NAME ""
 INCLUDE [puts {MACRO WB_OLD_CONTEXT_$(GradedColorizer_WORKSPACE_NAME) $(WB_CURRENT_CONTEXT)};          puts {MACRO WB_CURRENT_CONTEXT $(GradedColorizer_WORKSPACE_NAME)}]
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(GradedColorizer_WORKSPACE_NAME)_INPUT1523545244 Input Splitter"   INPUT FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_INPUT"   OUTPUT FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_INPUT"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(GradedColorizer_WORKSPACE_NAME)_INPUT1523631712 Input Splitter"   INPUT FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_INPUT"   OUTPUT FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_INPUT"
 # -------------------------------------------------------------------------
 Tcl2 proc $(GradedColorizer_WORKSPACE_NAME)_ParameterFetcher_2_doFetch {} {    foreach {name val} {"GC_Number_of_Bands {$($(GradedColorizer_WORKSPACE_NAME)_Number_of_Bands$encode)} GC_Color_Scheme {$($(GradedColorizer_WORKSPACE_NAME)_Color_Scheme)} GC_RangeVals {$($(GradedColorizer_WORKSPACE_NAME)_RangeVals$encode)} GC_Value {$($(GradedColorizer_WORKSPACE_NAME)_Attribute_to_Color)} GC_Binning_Method {$($(GradedColorizer_WORKSPACE_NAME)_Binning_Method)}"} {         if { [string match {*<at>*} $val] == 1 } {             set val [FME_Execute EvaluateExpression {STRING} $val {$(GradedColorizer_WORKSPACE_NAME)_ParameterFetcher_2}];         } elseif {[string match {*FME_CONDITIONAL*} $val] == 1} {             set val [FME_Execute EvaluateExpression {STRING} $val {$(GradedColorizer_WORKSPACE_NAME)_ParameterFetcher_2}];         } else {             set val [FME_DecodeTextOrAttr $val];         };       FME_SetAttribute [FME_DecodeText $name] $val    } }
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(GradedColorizer_WORKSPACE_NAME)_ParameterFetcher_2    INPUT  FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_INPUT"    OUTPUT FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_ParameterFetcher_2_OUTPUT"         @Tcl2($(GradedColorizer_WORKSPACE_NAME)_ParameterFetcher_2_doFetch)
@@ -4457,10 +4471,10 @@ FACTORY_DEF * DeaggregateFactory    FACTORY_NAME $(GradedColorizer_WORKSPACE_NAM
 FME_PYTHON_PATH "$(FME_MF_DIR)"
 FACTORY_DEF * PythonFactory    FACTORY_NAME $(GradedColorizer_WORKSPACE_NAME)_PythonCaller_5    INPUT  FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_Deaggregator_2_DEAGGREGATED"    SYMBOL_NAME FeatureProcessor    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fmeobjects<comma><space>math<comma><space>colorsys<lf>#<space>Template<space>Function<space>interface:<lf>def<space>processFeature<openparen>feature<closeparen>:<lf><space><space><space>pass<lf><lf>#<space>Template<space>Class<space>Interface:<lf>class<space>FeatureProcessor<openparen>object<closeparen>:<lf><space><space><space>def<space>__init__<openparen>self<closeparen>:<lf><space><space><space><space><space><space><space>pass<lf><space><space><space>def<space>input<openparen>self<comma>feature<closeparen>:<lf><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space>#<space>Get<space>the<space>list<space>of<space>Unique<space>Values<space><lf><space><space><space><space><space><space><space>rval=feature.getAttribute<openparen><quote>rval<quote><closeparen><lf><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space>#<space>Number<space>of<space>groups<space>=<space>number<space>of<space>Unique<space>values<lf><space><space><space><space><space><space><space>bands=len<openparen>rval.split<openparen><closeparen><closeparen><semicolon><lf><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space>#<space>Get<space>color<space>scheme<space>and<space>attribute<space>to<space>color<space>on<comma><space>also<space>initialize<space>variables<lf><space><space><space><space><space><space><space>Value=float<openparen>feature.getAttribute<openparen><quote>GC_Value<quote><closeparen><closeparen><lf><space><space><space><space><space><space><space>cs=int<openparen>feature.getAttribute<openparen><quote>GC_Color_Scheme<quote><closeparen><closeparen><space><space><space><space><space><lf><space><space><space><space><space><space><space>R=0.0<lf><space><space><space><space><space><space><space>G=0.0<lf><space><space><space><space><space><space><space>B=0.0<lf><space><space><space><space><space><space><space>global<space>bin<lf><space><space><space><space><space><space><space>i=0<lf><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space>#<space>for<space>each<space>value<space>in<space>the<space>input<space>list<space>of<space>unique<space>values<lf><space><space><space><space><space><space><space>for<space>val<space>in<space>rval.split<openparen><closeparen>:<lf><space><space><space><space><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space><space><space><space><space>#<space>Check<space>if<space>the<space>attribute<space>value<space>is<space>equal<space>to<space>the<space>break<space>value<space>used<space>in<space>this<space>iteration<lf><space><space><space><space><space><space><space><space><space><space><space>if<space>Value==float<openparen>val<closeparen>:<lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><openbracket>R<comma>G<comma>B<closebracket>=self.color<openparen>i<comma>cs<comma>bands<closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>break<lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space><space><space><space><space>#<space>if<space>we<space>have<space>reached<space>here<comma><space>the<space>attribute<space>value<space>has<space>not<space>been<space>equal<space>to<space>the<space>current<space>unique<space>value<lf><space><space><space><space><space><space><space><space><space><space><space>#<space>It<space>does<space>not<space>belong<space>to<space>group<space>i<comma><space>so<space>it<space>might<space>belong<space>to<space>group<space>i+1<space><space><space><space><lf><space><space><space><space><space><space><space><space><space><space><space>i=i+1<lf><space><space><space><space><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space>#<space>Set<space>the<space>feature<apos>s<space>color<lf><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>fme_color<quote><comma>str<openparen>R<closeparen>+<quote><comma><quote>+str<openparen>G<closeparen>+<quote><comma><quote>+str<openparen>B<closeparen><closeparen><space><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>fme_fill_color<quote><comma>str<openparen>R<closeparen>+<quote><comma><quote>+str<openparen>G<closeparen>+<quote><comma><quote>+str<openparen>B<closeparen><closeparen><space><space><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><lf><lf><space><space><space><space><space><space><space>self.pyoutput<openparen>feature<closeparen><lf><space><space><space>def<space>close<openparen>self<closeparen>:<lf><space><space><space><space><space><space><space>pass<lf><space><space><space><space><space><space><space><lf><space><space><space>#<space>This<space>function<space>sets<space>feature<apos>s<space>color<space>based<space>on<space>the<space>group<space>it<space>belongs<space>to<comma><space>the<space>number<space>of<space>groups<comma><space>and<space>color<space>scheme<space><space><space><space><lf><space><space><space>def<space>color<openparen>self<comma>i<comma>cs<comma>bands<closeparen>:<lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>if<space><openparen>bands!=1<closeparen>:<lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>bands-=1<lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>if<space>cs==1:<lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><openbracket>R<comma>G<comma>B<closebracket>=colorsys.hsv_to_rgb<openparen>float<openparen>i<closeparen><solidus>bands<comma>1<comma>1<closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>elif<space>cs==2:<lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><openbracket>R<comma>G<comma>B<closebracket>=colorsys.hsv_to_rgb<openparen>1-float<openparen>i<closeparen><solidus>bands<comma>1<comma>1<closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>elif<space>cs==3:<lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><openbracket>R<comma>G<comma>B<closebracket>=<openbracket>1<comma>float<openparen>i<closeparen><solidus>bands<comma>float<openparen>i<closeparen><solidus>bands<closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>elif<space>cs==4:<lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><openbracket>R<comma>G<comma>B<closebracket>=<openbracket>1<comma>1-float<openparen>i<closeparen><solidus>bands<comma>1-float<openparen>i<closeparen><solidus>bands<closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>elif<space>cs==5:<lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><openbracket>R<comma>G<comma>B<closebracket>=<openbracket>float<openparen>i<closeparen><solidus>bands<comma>float<openparen>i<closeparen><solidus>bands<comma>1<closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>elif<space>cs==6:<lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><openbracket>R<comma>G<comma>B<closebracket>=<openbracket>1-float<openparen>i<closeparen><solidus>bands<comma>1-float<openparen>i<closeparen><solidus>bands<comma>1<closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>elif<space>cs==7:<lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><openbracket>R<comma>G<comma>B<closebracket>=colorsys.hsv_to_rgb<openparen>float<openparen>i<closeparen><solidus>bands<solidus>3<comma>1<comma>1<closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>elif<space>cs==8:<lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><openbracket>R<comma>G<comma>B<closebracket>=colorsys.hsv_to_rgb<openparen>1.0<solidus>3-float<openparen>i<closeparen><solidus>bands<solidus>3<comma>1<comma>1<closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>else:<lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><openbracket>R<comma>G<comma>B<closebracket>=<openbracket>0<comma>0<comma>0<closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>return<space><openbracket>R<comma>G<comma>B<closebracket>    OUTPUT PYOUTPUT FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_PythonCaller_5_OUTPUT"
 # -------------------------------------------------------------------------
-DEFAULT_MACRO __$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_2_dac80f0e_7f76_4a5d_97fc_156cc07ed2a82_GROUP_BY
+DEFAULT_MACRO __$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_2_dba5c3c6_555b_4406_ad78_050a181e38a20_GROUP_BY
 DYNAMIC_FUNCTION_CONFIGURATION Python FMEOBJECTS
 DYNAMIC_FUNCTION_CONFIGURATION Python import StatisticsCalculator
-DYNAMIC_FUNCTION_CONFIGURATION Python "StatisticsCalculator.connectTransformer(    '$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_2',{     'GROUP_BY_MACRO':'__$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_2_dac80f0e_7f76_4a5d_97fc_156cc07ed2a82_GROUP_BY',     'STATS_ATTRS':'GC_Value',     'COUNT_ATTR':'GC_tcount',     'STDEVP_ATTR':'_stdevp',     'COMPUTE_HISTOGRAM':'NO',     'HISTO_ATTR':'<Unused>',     'PREPEND_ATTR_NAME':'No',     'encoded_result_attrs':True,     None:None})"
+DYNAMIC_FUNCTION_CONFIGURATION Python "StatisticsCalculator.connectTransformer(    '$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_2',{     'GROUP_BY_MACRO':'__$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_2_dba5c3c6_555b_4406_ad78_050a181e38a20_GROUP_BY',     'STATS_ATTRS':'GC_Value',     'COUNT_ATTR':'GC_tcount',     'STDEVP_ATTR':'_stdevp',     'COMPUTE_HISTOGRAM':'NO',     'HISTO_ATTR':'<Unused>',     'PREPEND_ATTR_NAME':'No',     'encoded_result_attrs':True,     None:None})"
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_2_InputProcessor    INPUT  FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_TestFilter_Binning_Method<space>=<space>C"    OUTPUT FEATURE_TYPE __ORIGINAL__       @Python(StatisticsCalculator.recordFeature,$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_2)
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_2_UnneededInputNuker    INPUT FEATURE_TYPE __ORIGINAL__    OUTPUT FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_2_COMPLETE"
 FACTORY_DEF * SortFactory    FACTORY_NAME $(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_2_CompleteOutputter    INPUT FEATURE_TYPE __UNUSED_INPUT_TO_GUARANTEE_FACTORY_DOESNT_CONSUME_EVERYTHING__    INPUT FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_2_COMPLETE"    OUTPUT SORTED FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_2_COMPLETE"       @Python(StatisticsCalculator.summarizeStatistics,$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_2,__ORIGINAL__)
@@ -4479,10 +4493,10 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "$(GradedColorizer_WORKSPACE_NAME)_Count
 FME_PYTHON_PATH "$(FME_MF_DIR)"
 FACTORY_DEF * PythonFactory    FACTORY_NAME $(GradedColorizer_WORKSPACE_NAME)_PythonCaller_3    INPUT  FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_Counter_OUTPUT"    SYMBOL_NAME FeatureProcessor    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fmeobjects<comma><space>math<comma><space>colorsys<lf>#<space>Template<space>Function<space>interface:<lf>def<space>processFeature<openparen>feature<closeparen>:<lf><space><space><space>pass<lf><lf>#<space>Template<space>Class<space>Interface:<lf>class<space>FeatureProcessor<openparen>object<closeparen>:<lf><space><space><space>def<space>__init__<openparen>self<closeparen>:<lf><space><space><space><space><space><space><space>global<space>bin<lf><space><space><space><space><space><space><space>bin=0<lf><space><space><space><space><space><space><space>global<space>preval<lf><space><space><space><space><space><space><space>preval=0<lf><space><space><space><space><space><space><space>pass<lf><space><space><space>def<space>input<openparen>self<comma>feature<closeparen>:<lf><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space>#<space>Get<space>all<space>needed<space>attributes<space>and<space>initialize<space>variables<lf><space><space><space><space><space><space><space>bands=int<openparen>feature.getAttribute<openparen><quote>GC_Number_of_Bands<quote><closeparen><closeparen><lf><space><space><space><space><space><space><space>Value=float<openparen>feature.getAttribute<openparen><quote>GC_Value<quote><closeparen><closeparen><lf><space><space><space><space><space><space><space>count=int<openparen>feature.getAttribute<openparen><quote>GC_count<quote><closeparen><closeparen><lf><space><space><space><space><space><space><space>tcount=int<openparen>feature.getAttribute<openparen><quote>GC_tcount<quote><closeparen><closeparen><lf><space><space><space><space><space><space><space>cs=int<openparen>feature.getAttribute<openparen><quote>GC_Color_Scheme<quote><closeparen><closeparen><lf><space><space><space><space><space><space><space>R=0.0<lf><space><space><space><space><space><space><space>G=0.0<lf><space><space><space><space><space><space><space>B=0.0<lf><space><space><space><space><space><space><space>global<space>bin<lf><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space>#<space>If<space>feature<space>ID<space>is<space>less<space>than<space>the<space>current<space>group<space>number<space>times<space>number<space>of<space>items<space>in<space>each<space>group<comma><lf><space><space><space><space><space><space><space>#<space>the<space>feature<space>belongs<space>to<space>current<space>group<lf><space><space><space><space><space><space><space>if<space>count<lt><openparen>bin+1<closeparen>*tcount<solidus>bands:<lf><space><space><space><space><space><space><space><space><space><space><space><space><openbracket>R<comma>G<comma>B<closebracket>=self.color<openparen>bin<comma>cs<comma>bands<closeparen><lf><space><space><space><space><space><space><space>#<space>If<space>not<comma><space>the<space>feature<space>belongs<space>to<space>the<space>next<space>group<lf><space><space><space><space><space><space><space>else:<lf><space><space><space><space><space><space><space><space><space><space><space><space><openbracket>R<comma>G<comma>B<closebracket>=self.color<openparen>bin+1<comma>cs<comma>bands<closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>bin=bin+1<lf><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>fme_color<quote><comma>str<openparen>R<closeparen>+<quote><comma><quote>+str<openparen>G<closeparen>+<quote><comma><quote>+str<openparen>B<closeparen><closeparen><space><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>fme_fill_color<quote><comma>str<openparen>R<closeparen>+<quote><comma><quote>+str<openparen>G<closeparen>+<quote><comma><quote>+str<openparen>B<closeparen><closeparen><space><space><lf><space><space><space><space><space><space><space>self.pyoutput<openparen>feature<closeparen><lf><space><space><space>def<space>close<openparen>self<closeparen>:<lf><space><space><space><space><space><space><space>pass<lf><lf><space><space><space>#<space>This<space>function<space>sets<space>feature<apos>s<space>color<space>based<space>on<space>the<space>group<space>it<space>belongs<space>to<comma><space>the<space>number<space>of<space>groups<comma><space>and<space>color<space>scheme<lf><space><space><space>def<space>color<openparen>self<comma>i<comma>cs<comma>bands<closeparen>:<lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>if<space><openparen>bands!=1<closeparen>:<lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>bands-=1<lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>if<space>cs==1:<lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><openbracket>R<comma>G<comma>B<closebracket>=colorsys.hsv_to_rgb<openparen>float<openparen>i<closeparen><solidus>bands<comma>1<comma>1<closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>elif<space>cs==2:<lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><openbracket>R<comma>G<comma>B<closebracket>=colorsys.hsv_to_rgb<openparen>1-float<openparen>i<closeparen><solidus>bands<comma>1<comma>1<closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>elif<space>cs==3:<lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><openbracket>R<comma>G<comma>B<closebracket>=<openbracket>1<comma>float<openparen>i<closeparen><solidus>bands<comma>float<openparen>i<closeparen><solidus>bands<closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>elif<space>cs==4:<lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><openbracket>R<comma>G<comma>B<closebracket>=<openbracket>1<comma>1-float<openparen>i<closeparen><solidus>bands<comma>1-float<openparen>i<closeparen><solidus>bands<closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>elif<space>cs==5:<lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><openbracket>R<comma>G<comma>B<closebracket>=<openbracket>float<openparen>i<closeparen><solidus>bands<comma>float<openparen>i<closeparen><solidus>bands<comma>1<closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>elif<space>cs==6:<lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><openbracket>R<comma>G<comma>B<closebracket>=<openbracket>1-float<openparen>i<closeparen><solidus>bands<comma>1-float<openparen>i<closeparen><solidus>bands<comma>1<closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>elif<space>cs==7:<lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><openbracket>R<comma>G<comma>B<closebracket>=colorsys.hsv_to_rgb<openparen>float<openparen>i<closeparen><solidus>bands<solidus>3<comma>1<comma>1<closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>elif<space>cs==8:<lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><openbracket>R<comma>G<comma>B<closebracket>=colorsys.hsv_to_rgb<openparen>1.0<solidus>3-float<openparen>i<closeparen><solidus>bands<solidus>3<comma>1<comma>1<closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>else:<lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><openbracket>R<comma>G<comma>B<closebracket>=<openbracket>0<comma>0<comma>0<closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>return<space><openbracket>R<comma>G<comma>B<closebracket>    OUTPUT PYOUTPUT FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_PythonCaller_3_OUTPUT"
 # -------------------------------------------------------------------------
-DEFAULT_MACRO __$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_8c4a0810_83ca_40db_a89f_647f70acd8302_GROUP_BY
+DEFAULT_MACRO __$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_dcc3fb46_ff0f_406d_93e4_81a9f71a8bea0_GROUP_BY
 DYNAMIC_FUNCTION_CONFIGURATION Python FMEOBJECTS
 DYNAMIC_FUNCTION_CONFIGURATION Python import StatisticsCalculator
-DYNAMIC_FUNCTION_CONFIGURATION Python "StatisticsCalculator.connectTransformer(    '$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator',{     'GROUP_BY_MACRO':'__$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_8c4a0810_83ca_40db_a89f_647f70acd8302_GROUP_BY',     'STATS_ATTRS':'GC_Value',     'MIN_ATTR':'GC_min',     'RANGE_ATTR':'GC_range',     'STDEVP_ATTR':'_stdevp',     'COMPUTE_HISTOGRAM':'NO',     'HISTO_ATTR':'<Unused>',     'PREPEND_ATTR_NAME':'No',     'encoded_result_attrs':True,     None:None})"
+DYNAMIC_FUNCTION_CONFIGURATION Python "StatisticsCalculator.connectTransformer(    '$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator',{     'GROUP_BY_MACRO':'__$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_dcc3fb46_ff0f_406d_93e4_81a9f71a8bea0_GROUP_BY',     'STATS_ATTRS':'GC_Value',     'MIN_ATTR':'GC_min',     'RANGE_ATTR':'GC_range',     'STDEVP_ATTR':'_stdevp',     'COMPUTE_HISTOGRAM':'NO',     'HISTO_ATTR':'<Unused>',     'PREPEND_ATTR_NAME':'No',     'encoded_result_attrs':True,     None:None})"
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_InputProcessor    INPUT  FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_TestFilter_Binning_Method<space>=<space>B"    OUTPUT FEATURE_TYPE __ORIGINAL__       @Python(StatisticsCalculator.recordFeature,$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator)
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_UnneededInputNuker    INPUT FEATURE_TYPE __ORIGINAL__    OUTPUT FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_COMPLETE"
 FACTORY_DEF * SortFactory    FACTORY_NAME $(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_CompleteOutputter    INPUT FEATURE_TYPE __UNUSED_INPUT_TO_GUARANTEE_FACTORY_DOESNT_CONSUME_EVERYTHING__    INPUT FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_COMPLETE"    OUTPUT SORTED FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_COMPLETE"       @Python(StatisticsCalculator.summarizeStatistics,$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator,__ORIGINAL__)
@@ -4497,7 +4511,7 @@ FACTORY_DEF * PythonFactory    FACTORY_NAME $(GradedColorizer_WORKSPACE_NAME)_Py
 # -------------------------------------------------------------------------
 INCLUDE [    set macroLine "MACRO $(GradedColorizer_WORKSPACE_NAME)_AttributeRemover_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME $(GradedColorizer_WORKSPACE_NAME)_AttributeRemover    INPUT  FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_PythonCaller_3_OUTPUT"    INPUT  FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_PythonCaller_2_OUTPUT"    INPUT  FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_PythonCaller_4_OUTPUT"    INPUT  FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_PythonCaller_5_OUTPUT"    OUTPUT { FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_AttributeRemover_OUTPUT"        @RemoveAttributes(fme_encoded,GC_min,_part_number,GC_count,_geometry_name,GC_Color_Scheme,GC_RangeVals,GC_Value,rval,GC_Binning_Method,GC_tcount,GC_Number_of_Bands,GC_range)        @RemoveAttributes(fme_pcre_match"$($(GradedColorizer_WORKSPACE_NAME)_AttributeRemover_LIST_EXP)")         }
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(GradedColorizer_WORKSPACE_NAME)_OUTPUT1523545244 Output Collector"   INPUT FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_AttributeRemover_OUTPUT"   OUTPUT FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_OUTPUT"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(GradedColorizer_WORKSPACE_NAME)_OUTPUT1523631712 Output Collector"   INPUT FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_AttributeRemover_OUTPUT"   OUTPUT FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_OUTPUT"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(GradedColorizer_WORKSPACE_NAME))}]
 FACTORY_DEF * TeeFactory   FACTORY_NAME "GradedColorizer OUTPUT Output Renamer/Nuker"   INPUT FEATURE_TYPE GradedColorizer_OUTPUT   OUTPUT FEATURE_TYPE GradedColorizer_OUTPUT
 FACTORY_DEF * TeeFactory   FACTORY_NAME "GradedColorizer OUTPUT Splitter"   INPUT FEATURE_TYPE GradedColorizer_OUTPUT   OUTPUT FEATURE_TYPE GradedColorizer_OUTPUT_0_n4gePxL1iDg=   OUTPUT FEATURE_TYPE GradedColorizer_OUTPUT_1_71rDf23m2iw=   OUTPUT FEATURE_TYPE GradedColorizer_OUTPUT_2_ZjOxNa2ddWc=
@@ -4566,7 +4580,7 @@ MACRO $(DollarFormatter_WORKSPACE_NAME)_SUB_DOC_NAME DollarFormatter
 MACRO $(DollarFormatter_WORKSPACE_NAME)_ATTRS "Averaged Median Household Income","Averaged Median Property Value"
 DEFAULT_MACRO DollarFormatter_WORKSPACE_NAME ""
 INCLUDE [puts {MACRO WB_OLD_CONTEXT_$(DollarFormatter_WORKSPACE_NAME) $(WB_CURRENT_CONTEXT)};          puts {MACRO WB_CURRENT_CONTEXT $(DollarFormatter_WORKSPACE_NAME)}]
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(DollarFormatter_WORKSPACE_NAME)_Input1523545244 Input Splitter"   INPUT FEATURE_TYPE "$(DollarFormatter_WORKSPACE_NAME)_Input"   OUTPUT FEATURE_TYPE "$(DollarFormatter_WORKSPACE_NAME)_Input"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(DollarFormatter_WORKSPACE_NAME)_Input1523631712 Input Splitter"   INPUT FEATURE_TYPE "$(DollarFormatter_WORKSPACE_NAME)_Input"   OUTPUT FEATURE_TYPE "$(DollarFormatter_WORKSPACE_NAME)_Input"
 # -------------------------------------------------------------------------
 Tcl2 proc $(DollarFormatter_WORKSPACE_NAME)_ParameterFetcher_doFetch {} {    foreach {name val} {"_ATTRS {$($(DollarFormatter_WORKSPACE_NAME)_ATTRS$encode)}"} {         if { [string match {*<at>*} $val] == 1 } {             set val [FME_Execute EvaluateExpression {STRING} $val {$(DollarFormatter_WORKSPACE_NAME)_ParameterFetcher}];         } elseif {[string match {*FME_CONDITIONAL*} $val] == 1} {             set val [FME_Execute EvaluateExpression {STRING} $val {$(DollarFormatter_WORKSPACE_NAME)_ParameterFetcher}];         } else {             set val [FME_DecodeTextOrAttr $val];         };       FME_SetAttribute [FME_DecodeText $name] $val    } }
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(DollarFormatter_WORKSPACE_NAME)_ParameterFetcher    INPUT  FEATURE_TYPE "$(DollarFormatter_WORKSPACE_NAME)_Input"    OUTPUT FEATURE_TYPE "$(DollarFormatter_WORKSPACE_NAME)_ParameterFetcher_OUTPUT"         @Tcl2($(DollarFormatter_WORKSPACE_NAME)_ParameterFetcher_doFetch)
@@ -4576,7 +4590,7 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME $(DollarFormatter_WORKSPACE_NAME)_Attri
 # -------------------------------------------------------------------------
 FME_PYTHON_PATH "$(FME_MF_DIR)"
 FACTORY_DEF * PythonFactory    FACTORY_NAME $(DollarFormatter_WORKSPACE_NAME)_PythonCaller    INPUT  FEATURE_TYPE "$(DollarFormatter_WORKSPACE_NAME)_AttributeEncoder_OUTPUT"    SYMBOL_NAME FeatureProcessor    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf><lf>import<space>fmeobjects<lf><lf>#<space>Format<space>two<space>attribute<space>nicely<space>as<space>currency<lf><lf>def<space>FeatureProcessor<openparen>feature<closeparen>:<lf><space><space><space><space><lf><space><space><space><space>attrsParm<space>=<space>feature.getAttribute<openparen><apos>_ATTRS<apos><closeparen><lf><space><space><space><space><lf><space><space><space><space>#<space>Note<space>--<space>this<space>technique<space>does<space>not<space>work<space>if<space>the<space>attr<space>names<space>had<space><quote><space>or<space><comma><space>in<space>them<lf><space><space><space><space><lf><space><space><space><space>listOfAttrs<space>=<space><openbracket>x.strip<openparen><apos><quote><apos><closeparen><space>for<space>x<space>in<space>attrsParm.split<openparen><apos><comma><apos><closeparen><closebracket><lf><space><space><space><space><space><space><space><space><lf><space><space><space><space>for<space>attr<space>in<space>listOfAttrs:<lf><space><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space><space>value<space>=<space>float<openparen>feature.getAttribute<openparen>attr<closeparen><closeparen><space>or<space><apos><apos><lf><space><space><space><space><space><space><space><space>try:<lf><space><space><space><space><space><space><space><space><space><space><space><space>value_str<space>=<space><quote><dollar><opencurly>:<comma>.2f<closecurly><quote>.format<openparen>value<closeparen><lf><space><space><space><space><space><space><space><space>except<space>ValueError<comma><space>TypeError:<lf><space><space><space><space><space><space><space><space><space><space><space><space>value_str<space>=<space>value<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen>attr<comma><space>value_str<closeparen><lf>    OUTPUT PYOUTPUT FEATURE_TYPE "$(DollarFormatter_WORKSPACE_NAME)_PythonCaller_OUTPUT"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(DollarFormatter_WORKSPACE_NAME)_Output1523545244 Output Collector"   INPUT FEATURE_TYPE "$(DollarFormatter_WORKSPACE_NAME)_PythonCaller_OUTPUT"   OUTPUT FEATURE_TYPE "$(DollarFormatter_WORKSPACE_NAME)_Output"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(DollarFormatter_WORKSPACE_NAME)_Output1523631712 Output Collector"   INPUT FEATURE_TYPE "$(DollarFormatter_WORKSPACE_NAME)_PythonCaller_OUTPUT"   OUTPUT FEATURE_TYPE "$(DollarFormatter_WORKSPACE_NAME)_Output"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(DollarFormatter_WORKSPACE_NAME))}]
 FACTORY_DEF * TeeFactory   FACTORY_NAME "DollarFormatter Output Output Renamer/Nuker"   INPUT FEATURE_TYPE DollarFormatter_Output   OUTPUT FEATURE_TYPE DollarFormatter_Output
 # -------------------------------------------------------------------------
@@ -4588,7 +4602,7 @@ Lookup PowerPointStyler_Table_LUT    "TitleWithBody"        "pptx_text_slide"   
 FACTORY_DEF * TeeFactory    FACTORY_NAME PowerPointStyler_Table_WORKER    INPUT  FEATURE_TYPE ListBuilder_OUTPUT    OUTPUT FEATURE_TYPE PowerPointStyler_Table_Output           SLIDE_TYPE "Table Slide"     pptx_title_text Top<space>5<space>Most<space>Unaffordable     pptx_table_style "Medium Style 2 Accent 1"     pptx_table_banding Yes     pptx_measurement_units Inches     fme_pptx_table_data Neighborhood}_mostExpensive<opencurly><closecurly>.Name}Stretch}Land<space>Value}_mostExpensive<opencurly><closecurly>.Averaged<space>Median<space>Property<space>Value}Stretch}Average<space>Income}_mostExpensive<opencurly><closecurly>.Averaged<space>Median<space>Household<space>Income}Stretch     pptx_slide_order 1       pptx_type @Concatenate(          @Lookup( PowerPointStyler_Table_LUT, Table Slide)          @Lookup( PowerPointStyler_Table_LUT, $(pptx_slide_subtype) )       )       @RemoveAttributes(          BORDER_GROUP,          FILL_GROUP,          HYPERLINK_GROUP,          LABEL_GROUP,          SLIDE_TYPE,          pptx_slide_subtype       )
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC AppearanceSetter_OUTPUT TO FME_AR __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,2,<at>SupplyAttributes<openparen>ENCODED<comma>fme_template_feature_type<comma>Asset1<closeparen>,<at>EvaluateExpression<openparen>ATTR_CREATE_EXPR<comma>__wb_out_feat_type__<comma><lt>at<gt>Value<lt>openparen<gt>City<lt>closeparen<gt><comma>Asset1<closeparen> GEOMETRY    ROUTE FME_GENERIC PowerPointStyler_Table_Output TO POWERPOINT __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>presentation<closeparen> GEOMETRY    ROUTE FME_GENERIC PowerPointStyler_Map_Output TO POWERPOINT __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>presentation<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeManager_OUTPUT TO OGCKML __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>fme_template_feature_type<comma>3d<closeparen>,<at>EvaluateExpression<openparen>ATTR_CREATE_EXPR<comma>__wb_out_feat_type__<comma><lt>at<gt>Value<lt>openparen<gt>fme_feature_type<lt>closeparen<gt><comma>3d<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC PowerPointStyler_Table_Output TO POWERPOINT __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>presentation<closeparen> GEOMETRY    ROUTE FME_GENERIC PowerPointStyler_Map_Output TO POWERPOINT __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>presentation<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeManager_OUTPUT TO OGCKML __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>fme_template_feature_type<comma>3d<closeparen>,<at>EvaluateExpression<openparen>ATTR_CREATE_EXPR<comma>__wb_out_feat_type__<comma><lt>at<gt>Value<lt>openparen<gt>fme_feature_type<lt>closeparen<gt><comma>3d<closeparen> GEOMETRY    ROUTE FME_GENERIC AppearanceSetter_OUTPUT TO FME_AR __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,2,<at>SupplyAttributes<openparen>ENCODED<comma>fme_template_feature_type<comma>Asset1<closeparen>,<at>EvaluateExpression<openparen>ATTR_CREATE_EXPR<comma>__wb_out_feat_type__<comma><lt>at<gt>Value<lt>openparen<gt>City<lt>closeparen<gt><comma>Asset1<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
