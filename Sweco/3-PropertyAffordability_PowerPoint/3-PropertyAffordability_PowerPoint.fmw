@@ -3,7 +3,7 @@
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <WORKSPACE
 #    Command-line to run this workspace:
-#        /Library/FME/2018.1/fme /tmp/wb_publish_1523590230603_3864/3-PropertyAffordability_PowerPoint.fmw
+#        /Library/FME/2018.1/fme /tmp/wb_publish_152359038378_3864/3-PropertyAffordability_PowerPoint.fmw
 #              --SourceStatsCanada "/Users/fme/Desktop/FMEWT 2018/Sweco/1 - Getting Started with FME 2018/demo ppt/3-PropertyAffordability_PowerPoint/sourceData/StatsCanadaCensusCanada.csv"
 #              --SourceDataset_CSV2 "/Users/fme/Desktop/FMEWT 2018/Sweco/1 - Getting Started with FME 2018/demo ppt/3-PropertyAffordability_PowerPoint/sourceData/Simplified_Tax_Report.csv"
 #              --SourceCensusDA_2 "/Users/fme/Desktop/FMEWT 2018/Sweco/1 - Getting Started with FME 2018/demo ppt/3-PropertyAffordability_PowerPoint/sourceData/StatsCanadaDisseminationAreasYVR.gdb"
@@ -33,7 +33,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2018.1.0.0 (20180326 - Build 18445 - macosx)"
-#!   LAST_SAVE_DATE="2018-04-12T20:30:30"
+#!   LAST_SAVE_DATE="2018-04-12T20:33:03"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -1893,8 +1893,8 @@
 #!   IDENTIFIER="47"
 #!   TYPE="FeatureJoiner"
 #!   VERSION="1000"
-#!   POSITION="1075.2485632396806 -480.65282993585674"
-#!   BOUNDING_RECT="1075.2485632396806 -480.65282993585674 -1 -1"
+#!   POSITION="1512.3957918548238 -532.08191565528546"
+#!   BOUNDING_RECT="1512.3957918548238 -532.08191565528546 -1 -1"
 #!   ORDER="500000000000064.13"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -4687,7 +4687,7 @@ MACRO $(GradedColorizer_WORKSPACE_NAME)_Number_of_Bands 7
 MACRO $(GradedColorizer_WORKSPACE_NAME)_RangeVals 0,1,2,2.25,2.5,2.75,3
 DEFAULT_MACRO GradedColorizer_WORKSPACE_NAME ""
 INCLUDE [puts {MACRO WB_OLD_CONTEXT_$(GradedColorizer_WORKSPACE_NAME) $(WB_CURRENT_CONTEXT)};          puts {MACRO WB_CURRENT_CONTEXT $(GradedColorizer_WORKSPACE_NAME)}]
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(GradedColorizer_WORKSPACE_NAME)_INPUT1523590230 Input Splitter"   INPUT FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_INPUT"   OUTPUT FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_INPUT"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(GradedColorizer_WORKSPACE_NAME)_INPUT1523590383 Input Splitter"   INPUT FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_INPUT"   OUTPUT FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_INPUT"
 # -------------------------------------------------------------------------
 
 Tcl2 proc $(GradedColorizer_WORKSPACE_NAME)_ParameterFetcher_2_doFetch {} {    foreach {name val} {"GC_Number_of_Bands {$($(GradedColorizer_WORKSPACE_NAME)_Number_of_Bands$encode)} GC_Color_Scheme {$($(GradedColorizer_WORKSPACE_NAME)_Color_Scheme)} GC_RangeVals {$($(GradedColorizer_WORKSPACE_NAME)_RangeVals$encode)} GC_Value {$($(GradedColorizer_WORKSPACE_NAME)_Attribute_to_Color)} GC_Binning_Method {$($(GradedColorizer_WORKSPACE_NAME)_Binning_Method)}"} {         if { [string match {*<at>*} $val] == 1 } {             set val [FME_Execute EvaluateExpression {STRING} $val {$(GradedColorizer_WORKSPACE_NAME)_ParameterFetcher_2}];         } elseif {[string match {*FME_CONDITIONAL*} $val] == 1} {             set val [FME_Execute EvaluateExpression {STRING} $val {$(GradedColorizer_WORKSPACE_NAME)_ParameterFetcher_2}];         } else {             set val [FME_DecodeTextOrAttr $val];         };       FME_SetAttribute [FME_DecodeText $name] $val    } }
@@ -4740,11 +4740,11 @@ FACTORY_DEF * PythonFactory    FACTORY_NAME $(GradedColorizer_WORKSPACE_NAME)_Py
 
 # -------------------------------------------------------------------------
 
-DEFAULT_MACRO __$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_2_72c5c3a8_4964_497e_b633_d74eda8643a40_GROUP_BY
+DEFAULT_MACRO __$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_2_72c5c3a8_4964_497e_b633_d74eda8643a41_GROUP_BY
 
 DYNAMIC_FUNCTION_CONFIGURATION Python FMEOBJECTS
 DYNAMIC_FUNCTION_CONFIGURATION Python import StatisticsCalculator
-DYNAMIC_FUNCTION_CONFIGURATION Python "StatisticsCalculator.connectTransformer(    '$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_2',{     'GROUP_BY_MACRO':'__$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_2_72c5c3a8_4964_497e_b633_d74eda8643a40_GROUP_BY',     'STATS_ATTRS':'GC_Value',     'COUNT_ATTR':'GC_tcount',     'STDEVP_ATTR':'_stdevp',     'COMPUTE_HISTOGRAM':'NO',     'HISTO_ATTR':'<Unused>',     'PREPEND_ATTR_NAME':'No',     'encoded_result_attrs':True,     None:None})"
+DYNAMIC_FUNCTION_CONFIGURATION Python "StatisticsCalculator.connectTransformer(    '$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_2',{     'GROUP_BY_MACRO':'__$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_2_72c5c3a8_4964_497e_b633_d74eda8643a41_GROUP_BY',     'STATS_ATTRS':'GC_Value',     'COUNT_ATTR':'GC_tcount',     'STDEVP_ATTR':'_stdevp',     'COMPUTE_HISTOGRAM':'NO',     'HISTO_ATTR':'<Unused>',     'PREPEND_ATTR_NAME':'No',     'encoded_result_attrs':True,     None:None})"
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_2_InputProcessor    INPUT  FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_TestFilter_Binning_Method<space>=<space>C"    OUTPUT FEATURE_TYPE __ORIGINAL__       @Python(StatisticsCalculator.recordFeature,$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_2)
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_2_UnneededInputNuker    INPUT FEATURE_TYPE __ORIGINAL__    OUTPUT FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_2_COMPLETE"
 FACTORY_DEF * SortFactory    FACTORY_NAME $(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_2_CompleteOutputter    INPUT FEATURE_TYPE __UNUSED_INPUT_TO_GUARANTEE_FACTORY_DOESNT_CONSUME_EVERYTHING__    INPUT FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_2_COMPLETE"    OUTPUT SORTED FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_2_COMPLETE"       @Python(StatisticsCalculator.summarizeStatistics,$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_2,__ORIGINAL__)
@@ -4774,11 +4774,11 @@ FACTORY_DEF * PythonFactory    FACTORY_NAME $(GradedColorizer_WORKSPACE_NAME)_Py
 
 # -------------------------------------------------------------------------
 
-DEFAULT_MACRO __$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_a083bfa5_bab4_40e5_9924_81f5710060820_GROUP_BY
+DEFAULT_MACRO __$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_a083bfa5_bab4_40e5_9924_81f5710060821_GROUP_BY
 
 DYNAMIC_FUNCTION_CONFIGURATION Python FMEOBJECTS
 DYNAMIC_FUNCTION_CONFIGURATION Python import StatisticsCalculator
-DYNAMIC_FUNCTION_CONFIGURATION Python "StatisticsCalculator.connectTransformer(    '$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator',{     'GROUP_BY_MACRO':'__$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_a083bfa5_bab4_40e5_9924_81f5710060820_GROUP_BY',     'STATS_ATTRS':'GC_Value',     'MIN_ATTR':'GC_min',     'RANGE_ATTR':'GC_range',     'STDEVP_ATTR':'_stdevp',     'COMPUTE_HISTOGRAM':'NO',     'HISTO_ATTR':'<Unused>',     'PREPEND_ATTR_NAME':'No',     'encoded_result_attrs':True,     None:None})"
+DYNAMIC_FUNCTION_CONFIGURATION Python "StatisticsCalculator.connectTransformer(    '$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator',{     'GROUP_BY_MACRO':'__$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_a083bfa5_bab4_40e5_9924_81f5710060821_GROUP_BY',     'STATS_ATTRS':'GC_Value',     'MIN_ATTR':'GC_min',     'RANGE_ATTR':'GC_range',     'STDEVP_ATTR':'_stdevp',     'COMPUTE_HISTOGRAM':'NO',     'HISTO_ATTR':'<Unused>',     'PREPEND_ATTR_NAME':'No',     'encoded_result_attrs':True,     None:None})"
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_InputProcessor    INPUT  FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_TestFilter_Binning_Method<space>=<space>B"    OUTPUT FEATURE_TYPE __ORIGINAL__       @Python(StatisticsCalculator.recordFeature,$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator)
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_UnneededInputNuker    INPUT FEATURE_TYPE __ORIGINAL__    OUTPUT FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_COMPLETE"
 FACTORY_DEF * SortFactory    FACTORY_NAME $(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_CompleteOutputter    INPUT FEATURE_TYPE __UNUSED_INPUT_TO_GUARANTEE_FACTORY_DOESNT_CONSUME_EVERYTHING__    INPUT FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_COMPLETE"    OUTPUT SORTED FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator_COMPLETE"       @Python(StatisticsCalculator.summarizeStatistics,$(GradedColorizer_WORKSPACE_NAME)_StatisticsCalculator,__ORIGINAL__)
@@ -4808,7 +4808,7 @@ FACTORY_DEF {*} TeeFactory    FACTORY_NAME $(GradedColorizer_WORKSPACE_NAME)_Att
 
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(GradedColorizer_WORKSPACE_NAME)_AttributeExposer    INPUT  FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_AttributeRemover_OUTPUT"    OUTPUT FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_AttributeExposer_OUTPUT"
 
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(GradedColorizer_WORKSPACE_NAME)_OUTPUT1523590230 Output Collector"   INPUT FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_AttributeExposer_OUTPUT"   OUTPUT FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_OUTPUT"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(GradedColorizer_WORKSPACE_NAME)_OUTPUT1523590383 Output Collector"   INPUT FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_AttributeExposer_OUTPUT"   OUTPUT FEATURE_TYPE "$(GradedColorizer_WORKSPACE_NAME)_OUTPUT"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(GradedColorizer_WORKSPACE_NAME))}]
 FACTORY_DEF * TeeFactory   FACTORY_NAME "GradedColorizer OUTPUT Output Renamer/Nuker"   INPUT FEATURE_TYPE GradedColorizer_OUTPUT   OUTPUT FEATURE_TYPE GradedColorizer_OUTPUT
 # -------------------------------------------------------------------------
