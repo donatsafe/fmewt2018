@@ -3,7 +3,7 @@
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <WORKSPACE
 #    Command-line to run this workspace:
-#        /Library/FME/2018.1/fme /tmp/wb_publish_1523742078343_1532/HTMLExtractor.fmw
+#        /Library/FME/2018.1/fme /tmp/wb_publish_1523742189322_1532/HTMLExtractor.fmw
 #    
 #!   ATTR_TYPE_ENCODING="SDF"
 #!   BEGIN_PYTHON=""
@@ -28,7 +28,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2018.1.0.0 (20180326 - Build 18445 - macosx)"
-#!   LAST_SAVE_DATE="2018-04-14T14:41:18"
+#!   LAST_SAVE_DATE="2018-04-14T14:43:09"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -140,10 +140,10 @@
 #! <COMMENT
 #!   IDENTIFIER="10"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;helvetica neue&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;HTMLExtractor&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Extracts based on CSS Selectors&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="1161.5116151161515 -963.36402513685016"
-#!   TOP_LEFT="1161.5116151161515 -963.36402513685016"
-#!   BOTTOM_RIGHT="1591.5116151161515 -962.36402513685016"
-#!   BOUNDING_RECT="1161.5116151161515 -963.36402513685016 430 -1"
+#!   POSITION="1161.5116151161515 -1067.446698616646"
+#!   TOP_LEFT="1161.5116151161515 -1067.446698616646"
+#!   BOTTOM_RIGHT="1591.5116151161515 -1066.446698616646"
+#!   BOUNDING_RECT="1161.5116151161515 -1067.446698616646 430 -1"
 #!   ORDER="500000000000053"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -175,8 +175,8 @@
 #!   IDENTIFIER="2"
 #!   TYPE="HTMLExtractor"
 #!   VERSION="0"
-#!   POSITION="1161.5116151161515 -1294.1557987008441"
-#!   BOUNDING_RECT="1161.5116151161515 -1294.1557987008441 -1 -1"
+#!   POSITION="1161.5116151161515 -1398.23847218064"
+#!   BOUNDING_RECT="1161.5116151161515 -1398.23847218064 -1 -1"
 #!   ORDER="500000000000047"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
