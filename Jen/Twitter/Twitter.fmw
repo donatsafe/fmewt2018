@@ -1,8 +1,8 @@
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <WORKSPACE
 #    Command-line to run this workspace:
-#        /Library/FME/2018.0/fme /tmp/wb_publish_1523547964599_751/Twitter.fmw
-#              --DestDataset_POWERPOINT "/Users/jlutherthomas/Desktop/Desserts.pptx"
+#        /Library/FME/2018.0/fme /tmp/wb_publish_152388343665_1263/Twitter.fmw
+#              --DestDataset_HTML "/Users/jlutherthomas/Desktop/Desserts.html"
 #    
 #!   ATTR_TYPE_ENCODING="SDF"
 #!   BEGIN_PYTHON=""
@@ -11,14 +11,14 @@
 #!   DESCRIPTION=""
 #!   DESTINATION="NONE"
 #!   DESTINATION_ROUTING_FILE=""
-#!   DOC_EXTENTS="4884.46 1069.77"
-#!   DOC_TOP_LEFT="-126.765 -1501.78"
+#!   DOC_EXTENTS="6009.82 928.341"
+#!   DOC_TOP_LEFT="-126.765 -1360.35"
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="18295"
-#!   FME_DOCUMENT_GUID="237cbefb-608f-442d-ac6c-edb806246942"
-#!   FME_DOCUMENT_PRIORGUID="df43ce65-29a6-49e8-b52c-2c82439bf3b7,af556f2d-ccab-47a7-8229-9d9d5ff0b2cc,ef174c1a-dc22-4245-b2a0-cee770483a43,c5cc1bf6-2b2e-46d8-a588-827a3c7da9ee,c7466d5d-aba0-4973-8d89-b9feacc71163,e176558c-fa62-4e75-91fa-60a4855d08f2,7b113b1a-9426-467a-859a-f77d6d627414,ac429d43-4193-4fc4-8a62-a6cba7854742,33761b91-696a-4796-84a7-d408e679bd57"
+#!   FME_DOCUMENT_GUID="b1fc80c8-ddce-4e9b-b79e-1c709fbe330c"
+#!   FME_DOCUMENT_PRIORGUID="df43ce65-29a6-49e8-b52c-2c82439bf3b7,af556f2d-ccab-47a7-8229-9d9d5ff0b2cc,ef174c1a-dc22-4245-b2a0-cee770483a43,c5cc1bf6-2b2e-46d8-a588-827a3c7da9ee,c7466d5d-aba0-4973-8d89-b9feacc71163,e176558c-fa62-4e75-91fa-60a4855d08f2,7b113b1a-9426-467a-859a-f77d6d627414,ac429d43-4193-4fc4-8a62-a6cba7854742,33761b91-696a-4796-84a7-d408e679bd57,237cbefb-608f-442d-ac6c-edb806246942,670e1fa6-240a-4dd1-9e0f-4d99ba6f684b,665610ae-33d0-46a0-9f1a-ccdd062376e2"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -27,7 +27,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2018.0.0.1 (20180328 - Build 18295 - macosx)"
-#!   LAST_SAVE_DATE="2018-04-12T10:46:04"
+#!   LAST_SAVE_DATE="2018-04-16T13:57:16"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -45,26 +45,26 @@
 #!   TITLE="QueryLandRegistryPricePaid"
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-400.004 -314.757"
+#!   VIEW_POSITION="-127.435 -398.234"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
-#!   ZOOM_SCALE="183"
+#!   ZOOM_SCALE="113"
 #! >
 #! <DATASETS>
 #! <DATASET
 #!   IS_SOURCE="false"
 #!   ROLE="WRITER"
-#!   FORMAT="POWERPOINT"
-#!   DATASET="$(DestDataset_POWERPOINT)"
-#!   KEYWORD="POWERPOINT_1"
+#!   FORMAT="HTML"
+#!   DATASET="$(DestDataset_HTML)"
+#!   KEYWORD="HTML_1"
 #!   MULTI_GEOM_ALLOWED="true"
-#!   ATTR_MAX_LENGTH="512"
+#!   ATTR_MAX_LENGTH="60"
 #!   ATTR_CASE="ANY"
-#!   ALLOWED_FEAT_TYPES=""
-#!   WRITE_DEFS="true"
-#!   DEFLINE_TEMPLATE="powerpoint_type {FME_GEN_GEOMETRY}"
+#!   ALLOWED_FEAT_TYPES="HTML"
+#!   WRITE_DEFS="false"
+#!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_type text powerpoint_font_italic text fme_fill_color text powerpoint_measurement_units text fme_feature_type text powerpoint_font_bold text fme_basename text fme_secondary_axis float powerpoint_paragraph_markdown text powerpoint_font_size integer fme_geometry text fme_color text fme_start_angle float fme_text_string text powerpoint_font_name text powerpoint_paragraph_style text powerpoint_type text powerpoint_font_strike text powerpoint_styler_id text powerpoint_image_source_type text powerpoint_font_underline text fme_dataset text powerpoint_table text powerpoint_break_count integer powerpoint_xformer_name text powerpoint_bullet_text text powerpoint_table_column_header text powerpoint_bullet_ordered text powerpoint_heading_text text powerpoint_table_style text fme_primary_axis float fme_text_size float fme_sweep_angle float powerpoint_table_column_value text powerpoint_heading_level text powerpoint_font_color text powerpoint_image_filename text powerpoint_image_width integer powerpoint_paragraph_text text powerpoint_bullet_indent integer powerpoint_table_column_width integer fme_rotation float powerpoint_template_file text powerpoint_justification text"
+#!   EXPOSABLE_ATTRS="fme_primary_axis number(31,15) fme_text_string char(50) fme_secondary_axis number(31,15) fme_geometry char(50) fme_color char(50) fme_start_angle number(31,15) fme_text_size number(31,15) html_eol char(10) fme_type char(50) fme_fill_color char(50) fme_sweep_angle number(31,15) fme_basename char(50) fme_rotation number(31,15) fme_dataset char(50) fme_feature_type char(50)"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -78,8 +78,28 @@
 #!   FANOUT_GROUP="NO"
 #! >
 #! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="HTML file"
+#! />
+#! <METAFILE_PARAMETER
 #!   NAME="FEATURE_TYPE_DEFAULT_NAME"
-#!   VALUE="Presentation"
+#!   VALUE="HTML"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="MIME_TYPE"
+#!   VALUE="text/html"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the HTML file(s)"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_FEATURE_TYPE_EDITING"
+#!   VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a name for the HTML file"
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="WRITER_FEATURE_TYPE_EDITING"
@@ -90,243 +110,294 @@
 #! <DATA_TYPES>
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text"
-#!   FME_TYPE="fme_buffer"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text"
-#!   FME_TYPE="fme_char(width)"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text"
+#!   FORMAT_TYPE="char(width)"
 #!   FME_TYPE="fme_varchar(width)"
-#!   FORMAT="POWERPOINT"
+#!   FORMAT="HTML"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="HTML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="HTML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="HTML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="buffer"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="HTML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="buffer"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="HTML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="buffer"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="HTML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="buffer"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="HTML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(20)"
 #!   FME_TYPE="fme_datetime"
-#!   FORMAT="POWERPOINT"
+#!   FORMAT="HTML"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text"
-#!   FME_TYPE="fme_date"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text"
+#!   FORMAT_TYPE="char(12)"
 #!   FME_TYPE="fme_time"
-#!   FORMAT="POWERPOINT"
+#!   FORMAT="HTML"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text"
-#!   FME_TYPE="fme_int16"
-#!   FORMAT="POWERPOINT"
+#!   FORMAT_TYPE="char(8)"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="HTML"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text"
-#!   FME_TYPE="fme_uint16"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text"
-#!   FME_TYPE="fme_int32"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text"
-#!   FME_TYPE="fme_uint32"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="integer"
-#!   FME_TYPE="fme_uint32"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text"
-#!   FME_TYPE="fme_int64"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text"
-#!   FME_TYPE="fme_uint64"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="float"
-#!   FME_TYPE="fme_real32"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="float"
+#!   FORMAT_TYPE="number(31,15)"
 #!   FME_TYPE="fme_real64"
-#!   FORMAT="POWERPOINT"
+#!   FORMAT="HTML"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text"
-#!   FME_TYPE="fme_uint8"
-#!   FORMAT="POWERPOINT"
+#!   FORMAT_TYPE="number(15,7)"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="HTML"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text"
-#!   FME_TYPE="fme_decimal(width,decimal)"
-#!   FORMAT="POWERPOINT"
+#!   FORMAT_TYPE="number(11,0)"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="HTML"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
-#!   FORMAT_TYPE="boolean"
+#!   FORMAT_TYPE="number(11,0)"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="HTML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(20,0)"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="HTML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(20,0)"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="HTML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="logical"
 #!   FME_TYPE="fme_boolean"
-#!   FORMAT="POWERPOINT"
+#!   FORMAT="HTML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(6,0)"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="HTML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(6,0)"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="HTML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(4,0)"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="HTML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(4,0)"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="HTML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(width,decimal)"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="HTML"
 #! />
 #! </DATA_TYPES>
 #! <GEOM_TYPES>
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
-#!   FORMAT_TYPE="powerpoint_image"
-#!   FME_TYPE="fme_raster"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="powerpoint_paragraph_text"
-#!   FME_TYPE="fme_text"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="powerpoint_bullet_text"
-#!   FME_TYPE="fme_text"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="powerpoint_heading_text"
-#!   FME_TYPE="fme_text"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="powerpoint_none"
+#!   FORMAT_TYPE="html_none"
 #!   FME_TYPE="fme_no_geom"
-#!   FORMAT="POWERPOINT"
+#!   FORMAT="HTML"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
-#!   FORMAT_TYPE="powerpoint_none"
+#!   FORMAT_TYPE="html_none"
 #!   FME_TYPE="fme_point"
-#!   FORMAT="POWERPOINT"
+#!   FORMAT="HTML"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
-#!   FORMAT_TYPE="powerpoint_none"
+#!   FORMAT_TYPE="html_none"
 #!   FME_TYPE="fme_line"
-#!   FORMAT="POWERPOINT"
+#!   FORMAT="HTML"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
-#!   FORMAT_TYPE="powerpoint_none"
+#!   FORMAT_TYPE="html_none"
 #!   FME_TYPE="fme_area"
-#!   FORMAT="POWERPOINT"
+#!   FORMAT="HTML"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
-#!   FORMAT_TYPE="powerpoint_none"
+#!   FORMAT_TYPE="html_none"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="HTML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="html_none"
 #!   FME_TYPE="fme_ellipse"
-#!   FORMAT="POWERPOINT"
+#!   FORMAT="HTML"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
-#!   FORMAT_TYPE="powerpoint_none"
+#!   FORMAT_TYPE="html_none"
 #!   FME_TYPE="fme_arc"
-#!   FORMAT="POWERPOINT"
+#!   FORMAT="HTML"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
-#!   FORMAT_TYPE="powerpoint_none"
+#!   FORMAT_TYPE="html_none"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="HTML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="html_none"
 #!   FME_TYPE="fme_rounded_rectangle"
-#!   FORMAT="POWERPOINT"
+#!   FORMAT="HTML"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
-#!   FORMAT_TYPE="powerpoint_none"
+#!   FORMAT_TYPE="html_none"
 #!   FME_TYPE="fme_collection"
-#!   FORMAT="POWERPOINT"
+#!   FORMAT="HTML"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
-#!   FORMAT_TYPE="powerpoint_none"
-#!   FME_TYPE="fme_point_cloud"
-#!   FORMAT="POWERPOINT"
+#!   FORMAT_TYPE="html_none"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="HTML"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
-#!   FORMAT_TYPE="powerpoint_none"
-#!   FME_TYPE="fme_solid"
-#!   FORMAT="POWERPOINT"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="powerpoint_none"
+#!   FORMAT_TYPE="html_none"
 #!   FME_TYPE="fme_surface"
-#!   FORMAT="POWERPOINT"
+#!   FORMAT="HTML"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
-#!   FORMAT_TYPE="powerpoint_none"
+#!   FORMAT_TYPE="html_none"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="HTML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="html_none"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="HTML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="html_none"
 #!   FME_TYPE="fme_feature_table"
-#!   FORMAT="POWERPOINT"
+#!   FORMAT="HTML"
 #! />
 #! </GEOM_TYPES>
 #! <FEATURE_TYPES>
 #! <FEATURE_TYPE
 #!   IS_SOURCE="false"
-#!   NODE_NAME="Presentation"
+#!   NODE_NAME="HTML"
 #!   FEATURE_TYPE_NAME=""
 #!   FEATURE_TYPE_NAME_QUALIFIER=""
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="21"
-#!   FEAT_GEOMTYPE="&lt;NO_GEOMETRY&gt;"
-#!   POSITION="4258.7544298972389 -741.18328242105974"
-#!   BOUNDING_RECT="4258.7544298972389 -741.18328242105974 -1 -1"
+#!   FEAT_GEOMTYPE="html_none"
+#!   POSITION="5883.0579720681853 -892.9501059716481"
+#!   BOUNDING_RECT="5883.0579720681853 -892.9501059716481 -1 -1"
 #!   ORDER="500000000000000"
-#!   COLLAPSED="false"
-#!   KEYWORD="POWERPOINT_1"
+#!   COLLAPSED="true"
+#!   KEYWORD="HTML_1"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   SCHEMA_ATTRIBUTE_SOURCE="0"
+#!   SCHEMA_ATTRIBUTE_SOURCE="1"
 #! >
-#!     <FEAT_ATTRIBUTE ATTR_NAME="_tweet_id" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="_tweet_status" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="_tweet_created_at" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="_tweet_search_result" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="_tweet_username" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="_matched{}.part" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="_matched{}.startIndex" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="match{}.match" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="match{}.startIndex" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="fme_basename" ATTR_TYPE="text"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="html_content" ATTR_TYPE="buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! </FEATURE_TYPE>
 #! </FEATURE_TYPES>
 #! <FMESERVER>
 #! <SERVICES>
+#! <SERVICE
+#!   NAME="fmedatastreaming"
+#! >
+#! <PROPERTIES>
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="ADVANCED"
+#!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="FAILURE_TOPICS"
+#!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="HTTP_DATASET"
+#!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="NOTIFICATION_WRITER"
+#!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="OUTPUT_WRITER"
+#!   VALUE="HTML_1"
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="SUCCESS_TOPICS"
+#!   VALUE=""
+#! />
+#! </PROPERTIES>
+#! </SERVICE>
 #! <SERVICE
 #!   NAME="fmejobsubmitter"
 #! >
@@ -367,16 +438,12 @@
 #! />
 #! <MODIFICATIONS>
 #! <MODIFICATION
-#!   UID=":DatasetMgr_POWERPOINT_1:DestDataset_POWERPOINT_1"
-#!   VALUE="$(DestDataset_POWERPOINT)"
+#!   UID=":DatasetMgr_HTML_1:DestDataset_HTML_1"
+#!   VALUE="$(DestDataset_HTML)"
 #! />
 #! <MODIFICATION
-#!   UID=":DatasetMgr_POWERPOINT_1:POWERPOINT_OUT_TEMPLATE_DOC_POWERPOINT_1"
-#!   VALUE=""
-#! />
-#! <MODIFICATION
-#!   UID=":GlobalParameterMgr:DestDataset_POWERPOINT"
-#!   VALUE="$(FME_MF_DIR)Desserts.pptx"
+#!   UID=":GlobalParameterMgr:DestDataset_HTML"
+#!   VALUE="$(FME_MF_DIR)Desserts.html"
 #! />
 #! <MODIFICATION
 #!   UID=":GlobalParameterMgr:FME_SERVER_DEST_DIR"
@@ -410,8 +477,8 @@
 #! </FMESERVER>
 #! <GLOBAL_PARAMETERS>
 #! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI FILENAME DestDataset_POWERPOINT PowerPoint_File(*.pptx)|*.pptx|All_files(*)|* Destination Microsoft PowerPoint file:"
-#!   DEFAULT_VALUE="/Users/jlutherthomas/Desktop/Desserts.pptx"
+#!   GUI_LINE="GUI FILENAME DestDataset_HTML HTML&lt;space&gt;Files(*.html)|*.html Destination Html File:"
+#!   DEFAULT_VALUE="/Users/jlutherthomas/Desktop/Desserts.html"
 #!   IS_STAND_ALONE="false"
 #! />
 #! </GLOBAL_PARAMETERS>
@@ -423,20 +490,20 @@
 #! <BOOKMARK
 #!   IDENTIFIER="29"
 #!   NAME="1. Collect the last 50 tweets"
-#!   DESCRIPTION=""
+#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
 #!   TOP_LEFT="-126.76505353288837 -432.0054300543004"
 #!   ORDER="500000000000069"
 #!   BOTTOM_RIGHT="1403.0135301353016 -1277.5096900969011"
 #!   BOUNDING_RECT="-126.76505353288837 -432.0054300543004 1529.7785836681901 845.50426004260066"
 #!   STICKY="true"
 #!   COLOUR="0.97647058823529409,0.82352941176470584,0.4392156862745098"
-#!   CONTENTS="7 2 5 3 4 8 6 "
+#!   CONTENTS="4 6 3 5 2 8 7 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
 #!   IDENTIFIER="30"
 #!   NAME="2. Find tweets that mention dessert"
-#!   DESCRIPTION=""
+#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
 #!   TOP_LEFT="1672.9579060496487 -758.00832008320083"
 #!   ORDER="500000000000070"
 #!   BOTTOM_RIGHT="2358.5187851878518 -1059.0083200832009"
@@ -449,7 +516,7 @@
 #! <BOOKMARK
 #!   IDENTIFIER="31"
 #!   NAME="3. Get image url and download it"
-#!   DESCRIPTION=""
+#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
 #!   TOP_LEFT="2403.6718355418848 -800.4501059716481"
 #!   ORDER="500000000000071"
 #!   BOTTOM_RIGHT="3492.6771855953857 -1101.4501059716481"
@@ -460,16 +527,16 @@
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
-#!   IDENTIFIER="32"
-#!   NAME="4. Create slides"
-#!   DESCRIPTION=""
-#!   TOP_LEFT="3608.9780062506497 -594.56569418635354"
-#!   ORDER="500000000000072"
-#!   BOTTOM_RIGHT="4757.6946357698871 -1501.7797236795898"
-#!   BOUNDING_RECT="3608.9780062506497 -594.56569418635354 1148.7166295192374 907.21402949323624"
+#!   IDENTIFIER="41"
+#!   NAME="5. Grid layout HTML"
+#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   TOP_LEFT="4078.5005413988565 -800.4501059716481"
+#!   ORDER="500000000000082"
+#!   BOTTOM_RIGHT="5760.240432367088 -1360.3467135926251"
+#!   BOUNDING_RECT="4078.5005413988565 -800.4501059716481 1681.7398909682315 559.89660762097697"
 #!   STICKY="true"
-#!   COLOUR="0.85490196078431369,0.54117647058823526,0.58431372549019611"
-#!   CONTENTS="28 21 25 17 26 22 23 "
+#!   COLOUR="0.47450980392156861,0.98431372549019602,0.68627450980392157"
+#!   CONTENTS="28 33 34 40 36 37 38 25 39 35 "
 #! >
 #! </BOOKMARK>
 #! </BOOKMARKS>
@@ -535,8 +602,8 @@
 #!   IDENTIFIER="5"
 #!   TYPE="TwitterStatusFetcher"
 #!   VERSION="7"
-#!   POSITION="759.50759507595103 -773.00723007230056"
-#!   BOUNDING_RECT="759.50759507595103 -773.00723007230056 593.50593505935046 71"
+#!   POSITION="759.50759507595103 -802.211061933628"
+#!   BOUNDING_RECT="759.50759507595103 -802.211061933628 593.50593505935046 71"
 #!   ORDER="500000000000047"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -624,7 +691,7 @@
 #!     <XFORM_ATTR ATTR_NAME="_tweet_username" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_PARM PARM_NAME="DEFAULT_VALUE" PARM_VALUE="No&lt;space&gt;Dessert"/>
 #!     <XFORM_PARM PARM_NAME="TESTLISTGRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE="&quot;BOOL_OP,OR,COMPOSITE_TEST,&quot;&quot;&quot;&quot;&quot;&quot;&lt;Unused&gt;&quot;&quot;&quot;&quot;&quot;&quot;,TEST_CLAUSE,CASE_INSENSITIVE_TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;_tweet_status&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;CONTAINS&lt;space&gt;dessert&lt;lf&gt;CASE_INSENSITIVE_TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;_tweet_status&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;CONTAINS&lt;space&gt;cake&lt;lf&gt;CASE_INSENSITIVE_TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;_tweet_status&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;CONTAINS&lt;space&gt;pudding&lt;lf&gt;CASE_INSENSITIVE_TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;_tweet_status&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;CONTAINS&lt;space&gt;ice&lt;lt&gt;space&lt;gt&gt;cream&lt;lf&gt;CASE_INSENSITIVE_TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;_tweet_status&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;CONTAINS&lt;space&gt;churros&quot;,Dessert"/>
+#!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE="&quot;BOOL_OP,COMPOSITE,COMPOSITE_TEST,&quot;&quot;&quot;&quot;&quot;&quot;(1 OR 2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8) AND 9&quot;&quot;&quot;&quot;&quot;&quot;,TEST_CLAUSE,CASE_INSENSITIVE_TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;_tweet_status&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;CONTAINS&lt;space&gt;dessert&lt;lf&gt;CASE_INSENSITIVE_TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;_tweet_status&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;CONTAINS&lt;space&gt;cake&lt;lf&gt;CASE_INSENSITIVE_TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;_tweet_status&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;CONTAINS&lt;space&gt;pudding&lt;lf&gt;CASE_INSENSITIVE_TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;_tweet_status&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;CONTAINS&lt;space&gt;ice&lt;lt&gt;space&lt;gt&gt;cream&lt;lf&gt;CASE_INSENSITIVE_TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;_tweet_status&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;CONTAINS&lt;space&gt;churros&lt;lf&gt;CASE_INSENSITIVE_TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;_tweet_status&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;CONTAINS&lt;space&gt;berry&lt;lf&gt;CASE_INSENSITIVE_TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;_tweet_status&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;CONTAINS&lt;space&gt;sweet&lt;lf&gt;CASE_INSENSITIVE_TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;_tweet_status&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;CONTAINS&lt;space&gt;torte&lt;lf&gt;CASE_SENSITIVE_TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;_tweet_status&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;NOT_BEGINS_WITH&lt;space&gt;RT&lt;lt&gt;space&lt;gt&gt;&quot;,Dessert"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="TestFilter"/>
 #! </TRANSFORMER>
@@ -728,109 +795,170 @@
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ImageFetcher"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
-#!   IDENTIFIER="17"
-#!   TYPE="PowerPointStyler"
-#!   VERSION="1"
-#!   POSITION="3682.9780062506497 -1244.1300883597073"
-#!   BOUNDING_RECT="3682.9780062506497 -1244.1300883597073 -1 -1"
-#!   ORDER="500000000000066"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="18295"
-#! >
-#!     <OUTPUT_FEAT NAME="Output"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="_tweet_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_tweet_status" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_tweet_created_at" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_tweet_search_result" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_tweet_username" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_matched{}.part" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_matched{}.startIndex" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="match{}.match" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="match{}.startIndex" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="ACTION_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ORDERING_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETER_SETUP" PARM_VALUE="pptx_slide_subtype[WithCaption[pptx_title_text[&lt;at&gt;Value&lt;openparen&gt;_tweet_username&lt;closeparen&gt;[pptx_caption_text[&lt;at&gt;Value&lt;openparen&gt;_tweet_status&lt;closeparen&gt;[pptx_image_fit[FillStretch[pptx_image_source[FromFeature[pptx_image_filename[&lt;Unused&gt;[HYPERLINK_GROUP[[pptx_hyperlink[[FME_CONTROLLER_QUERY_FILE[transformers&lt;solidus&gt;dependencies&lt;solidus&gt;powerpoint&lt;solidus&gt;slide_types&lt;solidus&gt;Image&lt;space&gt;Slide.fme"/>
-#!     <XFORM_PARM PARM_NAME="SLIDE_TYPE" PARM_VALUE="Image Slide"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="PowerPointStyler"/>
-#!     <XFORM_PARM PARM_NAME="pptx_slide_order" PARM_VALUE="2"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
 #!   IDENTIFIER="23"
-#!   TYPE="PowerPointStyler"
-#!   VERSION="1"
-#!   POSITION="3682.9780062506507 -956.47955303082449"
-#!   BOUNDING_RECT="3682.9780062506507 -956.47955303082449 -1 -1"
-#!   ORDER="500000000000066"
+#!   TYPE="HTMLReportGenerator"
+#!   VERSION="0"
+#!   POSITION="3607.991010032446 -892.9501059716481"
+#!   BOUNDING_RECT="3607.991010032446 -892.9501059716481 -1 -1"
+#!   ORDER="500000000000075"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="18295"
 #! >
-#!     <OUTPUT_FEAT NAME="Output"/>
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="_tweet_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_tweet_status" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_tweet_created_at" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_tweet_search_result" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_tweet_username" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_matched{}.part" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_matched{}.startIndex" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="match{}.match" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="match{}.startIndex" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="ACTION_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ORDERING_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETER_SETUP" PARM_VALUE="pptx_title_text[Team&lt;space&gt;Pink&lt;apos&gt;s&lt;space&gt;Desserts&lt;space&gt;-&lt;space&gt;FMEWT&lt;space&gt;2018[pptx_subtitle_text[[FME_CONTROLLER_QUERY_FILE[transformers&lt;solidus&gt;dependencies&lt;solidus&gt;powerpoint&lt;solidus&gt;slide_types&lt;solidus&gt;Title&lt;space&gt;Slide.fme"/>
-#!     <XFORM_PARM PARM_NAME="SLIDE_TYPE" PARM_VALUE="Title Slide"/>
+#!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="CONTENTS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CONTENT_LIST" PARM_VALUE="HEADER IMAGE HEADER"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE="_tweet_id"/>
+#!     <XFORM_PARM PARM_NAME="PAGE_CONFIG" PARM_VALUE="HEADER{{TEXT;&lt;at&gt;Value&lt;openparen&gt;_tweet_status&lt;closeparen&gt;;HEADER;H1;ALIGNMENT;CENTER;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;solidus&gt;dependencies&lt;solidus&gt;html5&lt;solidus&gt;Header.fme}}IMAGE{{AT;LINK;URL;&lt;at&gt;Value&lt;openparen&gt;match&lt;opencurly&gt;0&lt;closecurly&gt;.match&lt;closeparen&gt;;PATH;&lt;Unused&gt;;ALT_TEXT;;FME_CONTROLLER_QUERY_FILE;transformers&lt;solidus&gt;dependencies&lt;solidus&gt;html5&lt;solidus&gt;Image.fme}}HEADER{{TEXT;Tweet&lt;space&gt;by&lt;space&gt;&lt;at&gt;&lt;at&gt;Value&lt;openparen&gt;_tweet_username&lt;closeparen&gt;;HEADER;H5;ALIGNMENT;CENTER;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;solidus&gt;dependencies&lt;solidus&gt;html5&lt;solidus&gt;Header.fme}}"/>
+#!     <XFORM_PARM PARM_NAME="PAGE_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TITLE" PARM_VALUE="Team&lt;space&gt;Pinks&lt;space&gt;desserts&lt;space&gt;2018"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="PowerPointStyler_2"/>
-#!     <XFORM_PARM PARM_NAME="pptx_slide_order" PARM_VALUE="1"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTMLReportGenerator"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
-#!   IDENTIFIER="26"
-#!   TYPE="Sampler"
-#!   VERSION="4"
-#!   POSITION="3682.9780062506497 -687.06569418635354"
-#!   BOUNDING_RECT="3682.9780062506497 -687.06569418635354 -1 -1"
-#!   ORDER="500000000000067"
+#!   IDENTIFIER="25"
+#!   TYPE="HTMLLayouter"
+#!   VERSION="0"
+#!   POSITION="5280.240432367088 -892.9501059716481"
+#!   BOUNDING_RECT="5280.240432367088 -892.9501059716481 -1 -1"
+#!   ORDER="500000000000076"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="18295"
 #! >
-#!     <OUTPUT_FEAT NAME="SAMPLED"/>
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="_tweet_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_tweet_status" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_tweet_created_at" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_tweet_search_result" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_tweet_username" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_matched{}.part" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_matched{}.startIndex" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="match{}.match" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="match{}.startIndex" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <OUTPUT_FEAT NAME="NOT_SAMPLED"/>
+#!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_modulo_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="COLUMN" PARM_VALUE="@Value(_modulo_count)"/>
+#!     <XFORM_PARM PARM_NAME="DIV_STYLE" PARM_VALUE="NONE"/>
+#!     <XFORM_PARM PARM_NAME="GRID_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="LAYOUT" PARM_VALUE="GRID"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ROW" PARM_VALUE="@Value(_count)"/>
+#!     <XFORM_PARM PARM_NAME="STYLE_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TITLE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTMLLayouter"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="28"
+#!   TYPE="ModuloCounter"
+#!   VERSION="1"
+#!   POSITION="4152.5005413988565 -892.9501059716481"
+#!   BOUNDING_RECT="4152.5005413988565 -892.9501059716481 -1 -1"
+#!   ORDER="500000000000078"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="18295"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="_tweet_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_modulo_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="CNT_ATTR" PARM_VALUE="_modulo_count"/>
+#!     <XFORM_PARM PARM_NAME="DOMAIN" PARM_VALUE="modcounter"/>
+#!     <XFORM_PARM PARM_NAME="MOD" PARM_VALUE="2"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ModuloCounter"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="34"
+#!   TYPE="TestFilter"
+#!   VERSION="1"
+#!   POSITION="4171.534534147022 -1151.8467135926251"
+#!   BOUNDING_RECT="4171.534534147022 -1151.8467135926251 -1 -1"
+#!   ORDER="500000000000080"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="18295"
+#! >
+#!     <OUTPUT_FEAT NAME="1"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="_tweet_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_modulo_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="0"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="_tweet_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_tweet_status" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_tweet_created_at" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_tweet_search_result" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_tweet_username" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_matched{}.part" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_matched{}.startIndex" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="match{}.match" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="match{}.startIndex" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="RATE" PARM_VALUE="1"/>
-#!     <XFORM_PARM PARM_NAME="SAMPLE_MODE" PARM_VALUE="Yes"/>
-#!     <XFORM_PARM PARM_NAME="SAMPLE_TYPE_LONG" PARM_VALUE="First N Features"/>
+#!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_modulo_count" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="DEFAULT_VALUE" PARM_VALUE="0"/>
+#!     <XFORM_PARM PARM_NAME="TESTLISTGRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE="&quot;BOOL_OP,OR,COMPOSITE_TEST,&quot;&quot;&quot;&quot;&quot;&quot;&lt;Unused&gt;&quot;&quot;&quot;&quot;&quot;&quot;,TEST_CLAUSE,TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;_modulo_count&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;1&quot;,1"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Sampler"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="TestFilter_2"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="33"
+#!   TYPE="Counter"
+#!   VERSION="2"
+#!   POSITION="4707.2282705998377 -892.9501059716481"
+#!   BOUNDING_RECT="4707.2282705998377 -892.9501059716481 -1 -1"
+#!   ORDER="500000000000081"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="18295"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="_tweet_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_modulo_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="_tweet_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_modulo_count" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_count" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="CNT_ATTR" PARM_VALUE="_count"/>
+#!     <XFORM_PARM PARM_NAME="DOMAIN" PARM_VALUE="counter"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SCOPE" PARM_VALUE="Local"/>
+#!     <XFORM_PARM PARM_NAME="START" PARM_VALUE="1"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Counter"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="37"
+#!   TYPE="Counter"
+#!   VERSION="2"
+#!   POSITION="4707.2282705998377 -1151.8467135926251"
+#!   BOUNDING_RECT="4707.2282705998377 -1151.8467135926251 -1 -1"
+#!   ORDER="500000000000081"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="18295"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="_tweet_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_modulo_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="_tweet_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_modulo_count" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_count" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="CNT_ATTR" PARM_VALUE="_count"/>
+#!     <XFORM_PARM PARM_NAME="DOMAIN" PARM_VALUE="counter"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SCOPE" PARM_VALUE="Local"/>
+#!     <XFORM_PARM PARM_NAME="START" PARM_VALUE="1"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Counter_2"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -912,11 +1040,33 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="22"
-#!   SOURCE_NODE="17"
-#!   TARGET_NODE="21"
-#!   SOURCE_PORT_DESC="fo 0 Output"
-#!   TARGET_PORT_DESC="-1"
+#!   IDENTIFIER="16"
+#!   SOURCE_NODE="15"
+#!   TARGET_NODE="14"
+#!   SOURCE_PORT_DESC="fo 0 Dessert"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="24"
+#!   SOURCE_NODE="19"
+#!   TARGET_NODE="23"
+#!   SOURCE_PORT_DESC="fo 0 RASTER"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="32"
+#!   SOURCE_NODE="23"
+#!   TARGET_NODE="28"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
@@ -924,31 +1074,9 @@
 #! />
 #! <FEAT_LINK
 #!   IDENTIFIER="27"
-#!   SOURCE_NODE="19"
-#!   TARGET_NODE="26"
-#!   SOURCE_PORT_DESC="fo 0 RASTER"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="18"
-#!   SOURCE_NODE="19"
-#!   TARGET_NODE="17"
-#!   SOURCE_PORT_DESC="fo 0 RASTER"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="1"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="25"
-#!   SOURCE_NODE="23"
+#!   SOURCE_NODE="25"
 #!   TARGET_NODE="21"
-#!   SOURCE_PORT_DESC="fo 0 Output"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
 #!   TARGET_PORT_DESC="-1"
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
@@ -956,10 +1084,10 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="28"
-#!   SOURCE_NODE="26"
-#!   TARGET_NODE="23"
-#!   SOURCE_PORT_DESC="fo 0 SAMPLED"
+#!   IDENTIFIER="35"
+#!   SOURCE_NODE="28"
+#!   TARGET_NODE="34"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
@@ -967,10 +1095,43 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="16"
-#!   SOURCE_NODE="15"
-#!   TARGET_NODE="14"
-#!   SOURCE_PORT_DESC="fo 0 Dessert"
+#!   IDENTIFIER="40"
+#!   SOURCE_NODE="33"
+#!   TARGET_NODE="25"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="36"
+#!   SOURCE_NODE="34"
+#!   TARGET_NODE="33"
+#!   SOURCE_PORT_DESC="fo 0 1"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="39"
+#!   SOURCE_NODE="37"
+#!   TARGET_NODE="25"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="38"
+#!   SOURCE_NODE="34"
+#!   TARGET_NODE="37"
+#!   SOURCE_PORT_DESC="fo 1 0"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
@@ -988,10 +1149,10 @@
 #! </LOOKUP_TABLES>
 #! </WORKSPACE>
 FME_PYTHON_VERSION 2or3
-GUI IGNORE DestDataset_POWERPOINT_1,POWERPOINT_OUT_FME_GROUP_NAMED1_POWERPOINT_1,POWERPOINT_OUT_TEMPLATE_DOC_POWERPOINT_1
-DEFAULT_MACRO DestDataset_POWERPOINT /Users/jlutherthomas/Desktop/Desserts.pptx
-GUI FILENAME DestDataset_POWERPOINT PowerPoint_File(*.pptx)|*.pptx|All_files(*)|* Destination Microsoft PowerPoint file:
-INCLUDE [ if {{$(DestDataset_POWERPOINT)} == {}} { puts_real {Parameter 'DestDataset_POWERPOINT' must be given a value.}; exit 1; }; ]
+GUI IGNORE DestDataset_HTML_1
+DEFAULT_MACRO DestDataset_HTML /Users/jlutherthomas/Desktop/Desserts.html
+GUI FILENAME DestDataset_HTML HTML<space>Files(*.html)|*.html Destination Html File:
+INCLUDE [ if {{$(DestDataset_HTML)} == {}} { puts_real {Parameter 'DestDataset_HTML' must be given a value.}; exit 1; }; ]
 #! START_HEADER
 #! START_WB_HEADER
 READER_TYPE MULTI_READER
@@ -999,32 +1160,67 @@ READER_TYPE MULTI_READER
 WRITER_TYPE MULTI_WRITER
 MULTI_WRITER_DATASET_ORDER BY_ID
 MULTI_WRITER_FIRST_WRITER_ID 0
-MULTI_WRITER_TYPE{0} POWERPOINT
-MULTI_WRITER_KEYWORD{0} POWERPOINT_1
+MULTI_WRITER_TYPE{0} HTML
+MULTI_WRITER_KEYWORD{0} HTML_1
 #! END_WB_HEADER
 
 #! START_WB_HEADER
-MACRO WB_KEYWORD "POWERPOINT_1"
+MACRO WB_KEYWORD "HTML_1"
 #! END_WB_HEADER
-#! START_DEST_HEADER POWERPOINT POWERPOINT_1
+#! START_DEST_HEADER HTML HTML_1
+# =====================================================================
+# The following GUI line prompts for a folder to be used as the
+# the destination for the TextLine files. The user input is stored in
+# a macro, which is then used to define the dataset to be written.
 #! END_DEST_HEADER
 #! START_WB_HEADER
 DEFAULT_MACRO DestDataset
 INCLUDE [ if {"$(DestDataset)" != ""} {                          \
- puts {DEFAULT_MACRO DestDataset_POWERPOINT_1 $(DestDataset)}         \
+ puts {DEFAULT_MACRO DestDataset_HTML_1 $(DestDataset)}         \
  } ]
 #! END_WB_HEADER
-#! START_DEST_HEADER POWERPOINT POWERPOINT_1
-DEFAULT_MACRO DestDataset_POWERPOINT_1 $(DestDataset_POWERPOINT)
-GUI FILENAME DestDataset_POWERPOINT_1 PowerPoint_File(*.pptx)|*.pptx|All_files(*)|* Destination Microsoft PowerPoint file:
-DEFAULT_MACRO POWERPOINT_OUT_FME_GROUP_NAMED1_POWERPOINT_1 
-GUI OPTIONAL DISCLOSUREGROUP POWERPOINT_OUT_FME_GROUP_NAMED1_POWERPOINT_1 POWERPOINT_OUT_TEMPLATE_DOC_POWERPOINT_1 Parameters
-DEFAULT_MACRO POWERPOINT_OUT_TEMPLATE_DOC_POWERPOINT_1 
-POWERPOINT_1_TEMPLATE_DOC "$(POWERPOINT_OUT_TEMPLATE_DOC_POWERPOINT_1)"
-GUI OPTIONAL FILENAME_MUSTEXIST POWERPOINT_OUT_TEMPLATE_DOC_POWERPOINT_1 PowerPoint_File(*.pptx)|*.pptx Template Microsoft PowerPoint file:
+#! START_DEST_HEADER HTML HTML_1
+DEFAULT_MACRO DestDataset_HTML_1 $(DestDataset_HTML)
+GUI FILENAME DestDataset_HTML_1 HTML<space>Files(*.html)|*.html Destination Html File:
+# =====================================================================
+# The following GUI line prompts for the overwrite flag. The default is
+# YES. Possible values are YES or NO. Any value other than NO or
+# no is interpreted as YES.
+DEFAULT_MACRO HTML_OUT_OVERWRITE_FILE_HTML_1 YES
+HTML_1_OVERWRITE_FILE "$(HTML_OUT_OVERWRITE_FILE_HTML_1)"
+# =====================================================================
+# Set the type of encoding for the output files
+# =====================================================================
+# Set line termination character
+DEFAULT_MACRO HTML_OUT_END_OF_LINE_HTML_1 System
+HTML_1_END_OF_LINE "$(HTML_OUT_END_OF_LINE_HTML_1)"
+# =====================================================================
+# Set whether to write the last line termination character
+DEFAULT_MACRO HTML_OUT_WRITE_LAST_EOL_HTML_1 YES
+HTML_1_WRITE_LAST_EOL "$(HTML_OUT_WRITE_LAST_EOL_HTML_1)"
+DEFAULT_MACRO HTML_OUT_ENCODING_HTML_1 UTF8
+HTML_1_ENCODING "$(HTML_OUT_ENCODING_HTML_1)"
+# =====================================================================
+# The following GUI line prompts for the overwrite flag. The default is
+# YES. Possible values are YES or NO. Any value other than NO or
+# no is interpreted as YES.
+DEFAULT_MACRO HTML_OUT_WRITE_UTF8_BOM_HTML_1 YES
+HTML_1_WRITE_UTF8_BOM "$(HTML_OUT_WRITE_UTF8_BOM_HTML_1)"
+# =====================================================================
+# Set the mime type. Note -- it is actually only used inside of workspaces
+# as a FORMAT_PARAMETER which even then is parsed only by the FME Server
+# Repository Manager
+DEFAULT_MACRO HTML_OUT_MIME_TYPE_HTML_1 text/html
+HTML_1_MIME_TYPE "$(HTML_OUT_MIME_TYPE_HTML_1)"
+# ============================================================================
+# Opt in for destination dataset type vs format type validation
+DEFAULT_MACRO HTML_OUT_DESTINATION_DATASETTYPE_VALIDATION_HTML_1 Yes
+HTML_1_DESTINATION_DATASETTYPE_VALIDATION "$(HTML_OUT_DESTINATION_DATASETTYPE_VALIDATION_HTML_1)"
+DEFAULT_MACRO HTML_OUT_COORDINATE_SYSTEM_GRANULARITY_HTML_1 FEATURE
+HTML_1_COORDINATE_SYSTEM_GRANULARITY "$(HTML_OUT_COORDINATE_SYSTEM_GRANULARITY_HTML_1)"
 # ============================================================================ 
-POWERPOINT_1_GENERATE_FME_BUILD_NUM 18295
-POWERPOINT_1_DATASET "$(DestDataset_POWERPOINT_1)"
+HTML_1_GENERATE_FME_BUILD_NUM 18295
+HTML_1_DATASET "$(DestDataset_HTML_1)"
 #! END_DEST_HEADER
 #! START_WB_HEADER
 #! END_WB_HEADER
@@ -1039,7 +1235,7 @@ FME_GEOMETRY_HANDLING Enhanced
 FME_STROKE_MAX_DEVIATION 0
 MAPPING_FILE_ID QueryLandRegistryPricePaid
 LOG_FILTER_MASK -1
-DEFAULT_MACRO DATASET_KEYWORD_POWERPOINT_1 POWERPOINT_1
+DEFAULT_MACRO DATASET_KEYWORD_HTML_1 HTML_1
 # -------------------------------------------------------------------------
 
 MULTI_READER_CONTINUE_ON_READER_FAILURE No
@@ -1198,17 +1394,17 @@ FACTORY_DEF * TextEncoderFactory    FACTORY_NAME TiaAtSafe_OutputFactory    INPU
 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME TestFilter    INPUT  FEATURE_TYPE Mapgirll_TWEETS    INPUT  FEATURE_TYPE DaleAtSafe_TWEETS    INPUT  FEATURE_TYPE TiaAtSafe_TWEETS    OUTPUT FEATURE_TYPE TestFilter_TESTFILTERINPUTLINE_0
+FACTORY_DEF * TeeFactory    FACTORY_NAME TestFilter    INPUT  FEATURE_TYPE TiaAtSafe_TWEETS    INPUT  FEATURE_TYPE DaleAtSafe_TWEETS    INPUT  FEATURE_TYPE Mapgirll_TWEETS    OUTPUT FEATURE_TYPE TestFilter_TESTFILTERINPUTLINE_0
 
-FACTORY_DEF * TestFactory FACTORY_NAME TestFilter_TestFactory_0 INPUT FEATURE_TYPE TestFilter_TESTFILTERINPUTLINE_0 CASE_INSENSITIVE_TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_tweet_status<closeparen>,TestFilter) CONTAINS dessert ENCODED CASE_INSENSITIVE_TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_tweet_status<closeparen>,TestFilter) CONTAINS cake ENCODED CASE_INSENSITIVE_TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_tweet_status<closeparen>,TestFilter) CONTAINS pudding ENCODED CASE_INSENSITIVE_TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_tweet_status<closeparen>,TestFilter) CONTAINS ice<space>cream ENCODED CASE_INSENSITIVE_TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_tweet_status<closeparen>,TestFilter) CONTAINS churros ENCODED BOOLEAN_OPERATOR OR COMPOSITE_TEST_EXPR "<Unused>" OUTPUT PASSED FEATURE_TYPE TestFilter_Dessert OUTPUT FAILED FEATURE_TYPE TestFilter_TESTFILTERINPUTLINE_1
+FACTORY_DEF * TestFactory FACTORY_NAME TestFilter_TestFactory_0 INPUT FEATURE_TYPE TestFilter_TESTFILTERINPUTLINE_0 CASE_INSENSITIVE_TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_tweet_status<closeparen>,TestFilter) CONTAINS dessert ENCODED CASE_INSENSITIVE_TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_tweet_status<closeparen>,TestFilter) CONTAINS cake ENCODED CASE_INSENSITIVE_TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_tweet_status<closeparen>,TestFilter) CONTAINS pudding ENCODED CASE_INSENSITIVE_TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_tweet_status<closeparen>,TestFilter) CONTAINS ice<space>cream ENCODED CASE_INSENSITIVE_TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_tweet_status<closeparen>,TestFilter) CONTAINS churros ENCODED CASE_INSENSITIVE_TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_tweet_status<closeparen>,TestFilter) CONTAINS berry ENCODED CASE_INSENSITIVE_TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_tweet_status<closeparen>,TestFilter) CONTAINS sweet ENCODED CASE_INSENSITIVE_TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_tweet_status<closeparen>,TestFilter) CONTAINS torte ENCODED CASE_SENSITIVE_TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_tweet_status<closeparen>,TestFilter) NOT_BEGINS_WITH RT<space> ENCODED BOOLEAN_OPERATOR COMPOSITE COMPOSITE_TEST_EXPR "(1 OR 2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8) AND 9" OUTPUT PASSED FEATURE_TYPE TestFilter_Dessert OUTPUT FAILED FEATURE_TYPE TestFilter_TESTFILTERINPUTLINE_1
 FACTORY_DEF * TeeFactory FACTORY_NAME TestFilter_No<space>Dessert INPUT FEATURE_TYPE TestFilter_TESTFILTERINPUTLINE_1 OUTPUT FEATURE_TYPE TestFilter_No<space>Dessert
 FACTORY_DEF * TeeFactory   FACTORY_NAME "TestFilter No<space>Dessert Transformer Output Nuker"   INPUT FEATURE_TYPE TestFilter_No<space>Dessert
 # -------------------------------------------------------------------------
 
 MACRO casemac
 INCLUDE [ if { {no} == {no} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringSearcher_d1fb3e2d_9b90_4f9d_9ec1_3e22f91a559613_doGrep { stringToSearch regExp matchedChars matches matchedParts } {   set subMatches 1;   set matches [FME_DecodeText $matches];   set matchedParts [FME_DecodeText $matchedParts];   set results [FME_GetRegex $(casemac) [FME_DecodeText $regExp] [FME_DecodeText $stringToSearch]];   if {[llength [lindex $results 0]] > 0} {      set attrName [FME_DecodeText $matchedChars];      FME_SetAttribute $attrName [lindex [lindex [lindex $results 0] 0] 0];      set index 0;      set parts [lindex $results 1];      foreach part $parts {         if {[llength $matchedParts] > 0} {             set attrName "$matchedParts{$index}.part";             FME_SetAttribute $attrName [lindex $part 0];             set attrName "$matchedParts{$index}.startIndex";             FME_SetAttribute $attrName [lindex $part 1];         };         incr index;      };      set index 0;      set regexMatches [lindex $results 0];      foreach part $regexMatches {         if {[llength $matches] > 0} {             set attrName "$matches{$index}.match";             FME_SetAttribute $attrName [lindex $part 0];             set attrName "$matches{$index}.startIndex";             FME_SetAttribute $attrName [lindex $part 1];         };         set isFirstMatch 0;         incr index;      };      return $index;   };   return -1; }
-FACTORY_DEF * TestFactory    FACTORY_NAME StringSearcher    INPUT  FEATURE_TYPE TestFilter_Dessert    TEST @Tcl2("StringSearcher_d1fb3e2d_9b90_4f9d_9ec1_3e22f91a559613_doGrep {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_tweet_search_result<closeparen>,StringSearcher)} {http:<solidus><solidus>pbs.twimg.com<solidus>media<solidus>.*?.jpg} {} {match} {_matched}") > 0    OUTPUT PASSED FEATURE_TYPE StringSearcher_MATCHED
+Tcl2 proc StringSearcher_40ff128c_5911_410e_a1cf_10d6c34bcad52_doGrep { stringToSearch regExp matchedChars matches matchedParts } {   set subMatches 1;   set matches [FME_DecodeText $matches];   set matchedParts [FME_DecodeText $matchedParts];   set results [FME_GetRegex $(casemac) [FME_DecodeText $regExp] [FME_DecodeText $stringToSearch]];   if {[llength [lindex $results 0]] > 0} {      set attrName [FME_DecodeText $matchedChars];      FME_SetAttribute $attrName [lindex [lindex [lindex $results 0] 0] 0];      set index 0;      set parts [lindex $results 1];      foreach part $parts {         if {[llength $matchedParts] > 0} {             set attrName "$matchedParts{$index}.part";             FME_SetAttribute $attrName [lindex $part 0];             set attrName "$matchedParts{$index}.startIndex";             FME_SetAttribute $attrName [lindex $part 1];         };         incr index;      };      set index 0;      set regexMatches [lindex $results 0];      foreach part $regexMatches {         if {[llength $matches] > 0} {             set attrName "$matches{$index}.match";             FME_SetAttribute $attrName [lindex $part 0];             set attrName "$matches{$index}.startIndex";             FME_SetAttribute $attrName [lindex $part 1];         };         set isFirstMatch 0;         incr index;      };      return $index;   };   return -1; }
+FACTORY_DEF * TestFactory    FACTORY_NAME StringSearcher    INPUT  FEATURE_TYPE TestFilter_Dessert    TEST @Tcl2("StringSearcher_40ff128c_5911_410e_a1cf_10d6c34bcad52_doGrep {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_tweet_search_result<closeparen>,StringSearcher)} {http:<solidus><solidus>pbs.twimg.com<solidus>media<solidus>.*?.jpg} {} {match} {_matched}") > 0    OUTPUT PASSED FEATURE_TYPE StringSearcher_MATCHED
 
 # -------------------------------------------------------------------------
 
@@ -1221,40 +1417,57 @@ Tcl2 proc ImageFetcher_detect_content_type { } {    if { [string compare {JPEG} 
 FACTORY_DEF * TestFactory    FACTORY_NAME ImageFetcher_ContentTypeTester    INPUT FEATURE_TYPE ___non_empty_response___       _____image_type_____ @Tcl2("ImageFetcher_detect_content_type")    TEST @Value(_____image_type_____) != UNKNOWN    OUTPUT PASSED FEATURE_TYPE ___has_content_type___       @Tcl2("FME_SetAttribute $(IMAGE_FILE_ATTRIBUTE) [FME_TempFilename ImageFetcher]")       @File(DestWriteSrcRead,$(IMAGE_DATA_ATTRIBUTE),@Value($(IMAGE_FILE_ATTRIBUTE)))       @RemoveAttributes($(IMAGE_DATA_ATTRIBUTE))       @RemoveAttributes(fme_regexp_match,^_http_headers{[0-9]+}.*$)       @RemoveAttributes("_http_status_code","_http_error")       @RemoveAttributes(fme_regexp_match,^fme*)       @GlobalVariable(ImageFetcher__packedAttrs__,@SupplyAttributes())       @RemoveGeometry()
 FACTORY_DEF * QueryFactory    FACTORY_NAME ImageFetcher_Reader    INPUT FEATURE_TYPE ___has_content_type___    READER_TYPE @Value(_____image_type_____)    READER_DATASET @Value($(IMAGE_FILE_ATTRIBUTE))    CONTINUE_ON_READER_ERROR YES    READER_PARAMS    DELETE_SOURCE_ON_CLOSE yes    OUTPUT RESULT FEATURE_TYPE ImageFetcher_RASTER         @SupplyAttributes(@GlobalVariable(ImageFetcher__packedAttrs__))         @RemoveAttributes($(IMAGE_FILE_ATTRIBUTE),_____image_type_____)         @SupplyAttributes(fme_basename,ImageFetcher)
 
-FACTORY_DEF * TeeFactory   FACTORY_NAME "ImageFetcher RASTER Splitter"   INPUT FEATURE_TYPE ImageFetcher_RASTER   OUTPUT FEATURE_TYPE ImageFetcher_RASTER_0_86gSP1H+uxc=   OUTPUT FEATURE_TYPE ImageFetcher_RASTER_1_pSILZijy6Y0=
 # -------------------------------------------------------------------------
 
-DEFAULT_MACRO pptx_slide_subtype
-Lookup PowerPointStyler_LUT    "TitleWithBody"        "pptx_text_slide"    "TitleSlide"           "pptx_title_slide"    "TableSlide"           "pptx_table_slide"    "ImageSlide"           "pptx_image_slide"    "MapSlide"             "pptx_map_slide"    "ChartSlide"           "pptx_chart_slide"    "Custom(Advanced)"     "pptx_custom_slide"    "WithTitle"            "_with_title"    "WithCaption"          "_with_caption"    "FullSlide"            "_full_slide"    ""                     ""
-FACTORY_DEF * TeeFactory    FACTORY_NAME PowerPointStyler_WORKER    INPUT  FEATURE_TYPE ImageFetcher_RASTER_1_pSILZijy6Y0=    OUTPUT FEATURE_TYPE PowerPointStyler_Output           SLIDE_TYPE "Image Slide"     pptx_slide_subtype WithCaption     pptx_title_text "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_tweet_username<closeparen>,PowerPointStyler)"     pptx_caption_text "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_tweet_status<closeparen>,PowerPointStyler)"     pptx_image_fit FillStretch     pptx_image_source FromFeature     pptx_image_filename <Unused>     HYPERLINK_GROUP ""     pptx_hyperlink ""     pptx_slide_order 2       pptx_type @Concatenate(          @Lookup( PowerPointStyler_LUT, Image Slide)          @Lookup( PowerPointStyler_LUT, WithCaption )       )       @RemoveAttributes(          BORDER_GROUP,          FILL_GROUP,          HYPERLINK_GROUP,          LABEL_GROUP,          SLIDE_TYPE,          pptx_slide_subtype       )
+FACTORY_DEF {*} TeeFactory    INPUT  FEATURE_TYPE ImageFetcher_RASTER    OUTPUT { FEATURE_TYPE HTMLReportGenerator_PROCESSED       fme_html5_title "Team<space>Pinks<space>desserts<space>2018"       fme_html5_config "HEADER{{TEXT;@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_tweet_status<closeparen>,HTMLReportGenerator);HEADER;H1;ALIGNMENT;CENTER;COLOR;0<comma>0<comma>0}}IMAGE{{AT;LINK;URL;@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>match<opencurly>0<closecurly>.match<closeparen>,HTMLReportGenerator);PATH;<Unused>;ALT_TEXT;}}HEADER{{TEXT;@EvaluateExpression(FDIV,STRING_ENCODED,Tweet<space>by<space><at><at>Value<openparen>_tweet_username<closeparen>,HTMLReportGenerator);HEADER;H5;ALIGNMENT;CENTER;COLOR;0<comma>0<comma>0"       fme_html5_group_by "_tweet_id"       fme_html5_xformer_name "HTMLReportGenerator" }
 
-# -------------------------------------------------------------------------
 
-# If we're doing LAST N features, then the multiplier comes in as 0.
-# If we're doing First N, multiplier is -1.
-# For RANDOM, we need to treat LAST N as if it was first N (i.e. have a -1)
-# That is what the ? : does in the rate multiplier.
+FACTORY_DEF * PythonFactory    FACTORY_NAME HTMLReportGenerator    INPUT FEATURE_TYPE HTMLReportGenerator_PROCESSED    PYTHON_NAMESPACE FMEOBJECTS    SYMBOL_NAME reportgenerator.html5assembler.HTML5Assembler    OUTPUT PYOUTPUT FEATURE_TYPE HTMLReportGenerator_OUTPUT
 
-INCLUDE [ if { {-1} == {0} && {RANDOM} == {ORIGINAL} } {              puts "MACRO REAL_MODE LAST"; 	         puts "MACRO REAL_RATE 1"; 	      } else {              puts "MACRO REAL_MODE RANDOM";              puts "MACRO REAL_RATE [expr 1 * ( -1 ? -1 : -1 ) ]"; 	      } ]
-FACTORY_DEF {*} SamplingFactory    FACTORY_NAME Sampler    COMMAND_PARM_EVALUATION SINGLE_PASS    SAMPLE_RATE $(REAL_RATE)    SAMPLE_ORDER $(REAL_MODE)    INPUT  FEATURE_TYPE ImageFetcher_RASTER_0_86gSP1H+uxc=    OUTPUT SAMPLED FEATURE_TYPE ___SAMPLED___
-# This TeeFactory is needed because Sampler will still output features if it has no OUTPUT clauses specified.
-# This way we behave nicely even if there are no output connections on the transformer. See PR#28886.
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME Sampler_Sampled    INPUT FEATURE_TYPE ___SAMPLED___    OUTPUT FEATURE_TYPE Sampler_SAMPLED
 
 
 # -------------------------------------------------------------------------
 
-DEFAULT_MACRO pptx_slide_subtype
-Lookup PowerPointStyler_2_LUT    "TitleWithBody"        "pptx_text_slide"    "TitleSlide"           "pptx_title_slide"    "TableSlide"           "pptx_table_slide"    "ImageSlide"           "pptx_image_slide"    "MapSlide"             "pptx_map_slide"    "ChartSlide"           "pptx_chart_slide"    "Custom(Advanced)"     "pptx_custom_slide"    "WithTitle"            "_with_title"    "WithCaption"          "_with_caption"    "FullSlide"            "_full_slide"    ""                     ""
-FACTORY_DEF * TeeFactory    FACTORY_NAME PowerPointStyler_2_WORKER    INPUT  FEATURE_TYPE Sampler_SAMPLED    OUTPUT FEATURE_TYPE PowerPointStyler_2_Output           SLIDE_TYPE "Title Slide"     pptx_title_text Team<space>Pink<apos>s<space>Desserts<space>-<space>FMEWT<space>2018     pptx_subtitle_text ""     pptx_slide_order 1       pptx_type @Concatenate(          @Lookup( PowerPointStyler_2_LUT, Title Slide)          @Lookup( PowerPointStyler_2_LUT, $(pptx_slide_subtype) )       )       @RemoveAttributes(          BORDER_GROUP,          FILL_GROUP,          HYPERLINK_GROUP,          LABEL_GROUP,          SLIDE_TYPE,          pptx_slide_subtype       )
+FACTORY_DEF * TeeFactory    FACTORY_NAME ModuloCounter    INPUT  FEATURE_TYPE HTMLReportGenerator_OUTPUT    OUTPUT FEATURE_TYPE ModuloCounter_OUTPUT         "_modulo_count" @Count(fme_encoded,modcounter,0,2)
 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC PowerPointStyler_Output TO POWERPOINT __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Presentation<closeparen> GEOMETRY    ROUTE FME_GENERIC PowerPointStyler_2_Output TO POWERPOINT __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Presentation<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * TeeFactory    FACTORY_NAME TestFilter_2    INPUT  FEATURE_TYPE ModuloCounter_OUTPUT    OUTPUT FEATURE_TYPE TestFilter_2_TESTFILTERINPUTLINE_0
+
+FACTORY_DEF * TestFactory FACTORY_NAME TestFilter_2_TestFactory_0 INPUT FEATURE_TYPE TestFilter_2_TESTFILTERINPUTLINE_0 TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_modulo_count<closeparen>,TestFilter_2) = 1 ENCODED BOOLEAN_OPERATOR OR COMPOSITE_TEST_EXPR "<Unused>" OUTPUT PASSED FEATURE_TYPE TestFilter_2_1 OUTPUT FAILED FEATURE_TYPE TestFilter_2_TESTFILTERINPUTLINE_1
+FACTORY_DEF * TeeFactory FACTORY_NAME TestFilter_2_0 INPUT FEATURE_TYPE TestFilter_2_TESTFILTERINPUTLINE_1 OUTPUT FEATURE_TYPE TestFilter_2_0
+# -------------------------------------------------------------------------
+
+# Create the DomainName that this transformer will use.
+# Because @Count itself will evalute the expression to calculate the
+# domain, we don't need to do anything in Tcl per feature going by
+
+INCLUDE [    set domainPrefix {};    if { {Local} == {Local} }    {       set domainPrefix [FME_EncodeText {Counter_2_}];    };    puts "MACRO Counter_2_FULL_DOMAIN ${domainPrefix}counter"; ]
+FACTORY_DEF * ExecuteFunctionFactory    FACTORY_NAME Counter_2_Rejector    INPUT  FEATURE_TYPE TestFilter_2_0    FUNCTION_DEFINITION @Count(REJECTABLE_WITH_FLAG,fme_encoded,$(Counter_2_FULL_DOMAIN),"1")    RESULT_ATTRIBUTE "_count"    OUTPUT COMPLETE FEATURE_TYPE Counter_2_OUTPUT    OUTPUT REJECTED FEATURE_TYPE Counter_2_<REJECTED>
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Counter_2 <REJECTED> Transformer Output Nuker"   INPUT FEATURE_TYPE Counter_2_<REJECTED>
+# -------------------------------------------------------------------------
+
+# Create the DomainName that this transformer will use.
+# Because @Count itself will evalute the expression to calculate the
+# domain, we don't need to do anything in Tcl per feature going by
+
+INCLUDE [    set domainPrefix {};    if { {Local} == {Local} }    {       set domainPrefix [FME_EncodeText {Counter_}];    };    puts "MACRO Counter_FULL_DOMAIN ${domainPrefix}counter"; ]
+FACTORY_DEF * ExecuteFunctionFactory    FACTORY_NAME Counter_Rejector    INPUT  FEATURE_TYPE TestFilter_2_1    FUNCTION_DEFINITION @Count(REJECTABLE_WITH_FLAG,fme_encoded,$(Counter_FULL_DOMAIN),"1")    RESULT_ATTRIBUTE "_count"    OUTPUT COMPLETE FEATURE_TYPE Counter_OUTPUT    OUTPUT REJECTED FEATURE_TYPE Counter_<REJECTED>
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Counter <REJECTED> Transformer Output Nuker"   INPUT FEATURE_TYPE Counter_<REJECTED>
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    INPUT  FEATURE_TYPE Counter_OUTPUT    INPUT  FEATURE_TYPE Counter_2_OUTPUT    OUTPUT FEATURE_TYPE HTMLLayouter_PROCESSED       fme_html5_layout "GRID"       fme_html5_column "@EvaluateExpression(FDIV,FLOAT,<at>Value<openparen>_modulo_count<closeparen>,HTMLLayouter)"       fme_html5_row "@EvaluateExpression(FDIV,FLOAT,<at>Value<openparen>_count<closeparen>,HTMLLayouter)"       fme_html5_title ""       fme_html5_div_style "NONE"
+
+
+FACTORY_DEF * PythonFactory    FACTORY_NAME HTMLLayouter    INPUT FEATURE_TYPE HTMLLayouter_PROCESSED    PYTHON_NAMESPACE FMEOBJECTS    SYMBOL_NAME reportgenerator.html5layouter.HTML5Layouter    OUTPUT PYOUTPUT FEATURE_TYPE HTMLLayouter_OUTPUT
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC HTMLLayouter_OUTPUT TO HTML __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>HTML<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
 
-# -------------------------------------------------------------------------
-POWERPOINT_1_DEF Presentation   powerpoint_type              <NO_GEOMETRY>   _tweet_id                    text   _tweet_status                text   _tweet_created_at            text   _tweet_search_result         text   _tweet_username              text   _matched{}.part              text   _matched{}.startIndex        text   match{}.match                text   match{}.startIndex           text
