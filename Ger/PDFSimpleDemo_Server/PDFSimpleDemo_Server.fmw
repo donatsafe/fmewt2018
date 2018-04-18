@@ -1,9 +1,9 @@
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <WORKSPACE
 #    Command-line to run this workspace:
-#        /Library/FME/2018.0/fme /tmp/wb_publish_1523968728203_7325/PDFSimpleDemo_Server.fmw
-#              --SourceDataset_PDF2D "/Volumes/GoogleDrive/My Drive/FMEWT_2018/US_County_Populations.pdf"
-#              --DestDataset_ESRISHAPE "/Volumes/GoogleDrive/My Drive/FMEWT_2018/output"
+#        /Library/FME/2018.0/fme /tmp/wb_publish_15240376681_7325/PDFSimpleDemo_Server.fmw
+#              --SourceDataset_PDF2D "/Users/dmurray/Dropbox (Safe Software Inc.)/DonStuffMac/DonStuff/DemoData/FME2018/FME2018ServerDeepDive/Automation/data/US_County_Populations.pdf"
+#              --DestDataset_ESRISHAPE "/Users/dmurray/Dropbox (Safe Software Inc.)/DonStuffMac/DonStuff/DemoData/FME2018/FME2018ServerDeepDive/Automation/output"
 #    
 #!   ATTR_TYPE_ENCODING="SDF"
 #!   BEGIN_PYTHON=""
@@ -18,8 +18,8 @@
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="18295"
-#!   FME_DOCUMENT_GUID="8e0b3675-103f-4012-80d3-4ccc94f6df71"
-#!   FME_DOCUMENT_PRIORGUID="c8c0450c-0cfc-11e8-a920-1491825f4a2b,79f1cd32-0cfd-11e8-a920-1491825f4a2b,6addc3ae-0cfe-11e8-a920-1491825f4a2b,062790d9-a03a-4ccf-a218-b60667f53da4,470c4eef-4103-408e-ae25-dbab81ec69b8,0029b3f7-d21c-4c9e-8335-cf5745f7b9c5,95f5608e-1c40-4c9e-af90-7f2a7b476293,7d574237-a25a-41e8-9a62-533a45e60ebf,8cb3f9d5-82ae-40a9-b2d4-c95c75e5d8ad"
+#!   FME_DOCUMENT_GUID="e63d0ccb-1af7-4407-9db3-2ceac3d7d2ee"
+#!   FME_DOCUMENT_PRIORGUID="c8c0450c-0cfc-11e8-a920-1491825f4a2b,79f1cd32-0cfd-11e8-a920-1491825f4a2b,6addc3ae-0cfe-11e8-a920-1491825f4a2b,062790d9-a03a-4ccf-a218-b60667f53da4,470c4eef-4103-408e-ae25-dbab81ec69b8,0029b3f7-d21c-4c9e-8335-cf5745f7b9c5,95f5608e-1c40-4c9e-af90-7f2a7b476293,7d574237-a25a-41e8-9a62-533a45e60ebf,8cb3f9d5-82ae-40a9-b2d4-c95c75e5d8ad,8e0b3675-103f-4012-80d3-4ccc94f6df71"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -28,7 +28,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2018.0.0.1 (20180328 - Build 18295 - macosx)"
-#!   LAST_SAVE_DATE="2018-04-17T14:38:48"
+#!   LAST_SAVE_DATE="2018-04-18T09:47:48"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -46,7 +46,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-1419.01 615.006"
+#!   VIEW_POSITION="-591.006 462.005"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="100"
@@ -65,7 +65,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="pdf_type {FME_GEN_GEOMETRY}"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_text_string string pdf_text_rich string pdf_line_width string multi_reader_keyword string pdf_line_cap_style string pdf_page_size string pdf_name string pdf_frame_rectangle string pdf_frame_fixed_aspect string pdf_text_strikethrough string fme_type string fme_dataset string fme_sweep_angle string fme_color string pdf_world_rectangle string pdf_raster_compression_level string pdf_frame_clipping_enabled string pdf_page_number string pdf_text_italic string pdf_line_dash_pattern_phase string fme_text_size string fme_feature_type string pdf_no_output string fme_fill_color string pdf_feature_order string fme_rotation string pdf_url string fme_geometry string pdf_frame_name string multi_reader_id string pdf_line_dash_pattern{} string pdf_pen_opacity string pdf_line_miter_limit string fme_primary_axis string fme_start_angle string pdf_fill_opacity string pdf_type string pdf_text_font string pdf_frame_order string pdf_text_underline string pdf_tooltip string multi_reader_full_id string pdf_line_join_style string multi_reader_type string fme_basename string fme_secondary_axis string pdf_point_width string pdf_text_bold string"
+#!   EXPOSABLE_ATTRS="fme_text_string string pdf_text_rich string pdf_line_width string multi_reader_keyword string pdf_line_cap_style string pdf_page_size string pdf_name string pdf_frame_rectangle string fme_type string pdf_frame_fixed_aspect string pdf_text_strikethrough string pdf_world_rectangle string fme_dataset string fme_sweep_angle string fme_color string pdf_raster_compression_level string pdf_frame_clipping_enabled string pdf_page_number string pdf_text_italic string pdf_line_dash_pattern_phase string fme_text_size string fme_feature_type string pdf_no_output string fme_fill_color string pdf_feature_order string fme_rotation string pdf_url string pdf_frame_name string fme_geometry string multi_reader_id string pdf_line_dash_pattern{} string pdf_pen_opacity string pdf_line_miter_limit string fme_primary_axis string fme_start_angle string pdf_fill_opacity string pdf_type string pdf_text_font string pdf_frame_order string pdf_text_underline string pdf_tooltip string multi_reader_full_id string pdf_line_join_style string multi_reader_type string fme_basename string fme_secondary_axis string pdf_point_width string pdf_text_bold string"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -868,7 +868,7 @@
 #! />
 #! <MODIFICATION
 #!   UID=":GlobalParameterMgr:DestDataset_ESRISHAPE"
-#!   VALUE="/Volumes/GoogleDrive/My Drive/FMEWT_2018/output"
+#!   VALUE="/Users/dmurray/Dropbox (Safe Software Inc.)/DonStuffMac/DonStuff/DemoData/FME2018/FME2018ServerDeepDive/Automation/output"
 #! />
 #! <MODIFICATION
 #!   UID=":GlobalParameterMgr:FME_SERVER_DEST_DIR"
@@ -888,7 +888,7 @@
 #! />
 #! <MODIFICATION
 #!   UID=":GlobalParameterMgr:SourceDataset_PDF2D"
-#!   VALUE="/Volumes/GoogleDrive/My Drive/FMEWT_2018/US_County_Populations.pdf"
+#!   VALUE="/Users/dmurray/Dropbox (Safe Software Inc.)/DonStuffMac/DonStuff/DemoData/FME2018/FME2018ServerDeepDive/Automation/data/US_County_Populations.pdf"
 #! />
 #! <MODIFICATION
 #!   UID=":WBDoc:DESTINATION_ROUTING_FILE"
@@ -907,12 +907,12 @@
 #! <GLOBAL_PARAMETERS>
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI MULTIFILE SourceDataset_PDF2D PDF_Files(*.pdf)|*.pdf|All_files(*)|* Source Adobe Geospatial PDF File:"
-#!   DEFAULT_VALUE="/Volumes/GoogleDrive/My Drive/FMEWT_2018/US_County_Populations.pdf"
+#!   DEFAULT_VALUE="/Users/dmurray/Dropbox (Safe Software Inc.)/DonStuffMac/DonStuff/DemoData/FME2018/FME2018ServerDeepDive/Automation/data/US_County_Populations.pdf"
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI DIRNAME DestDataset_ESRISHAPE Destination Esri Shapefile Folder:"
-#!   DEFAULT_VALUE="/Volumes/GoogleDrive/My Drive/FMEWT_2018/output"
+#!   DEFAULT_VALUE="/Users/dmurray/Dropbox (Safe Software Inc.)/DonStuffMac/DonStuff/DemoData/FME2018/FME2018ServerDeepDive/Automation/output"
 #!   IS_STAND_ALONE="false"
 #! />
 #! </GLOBAL_PARAMETERS>
@@ -934,10 +934,10 @@
 #! <COMMENT
 #!   IDENTIFIER="15"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;helvetica neue&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Rename xls_popden_class to make shapefile friendly&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="1055.9970599706005 -337.00402004019918"
-#!   TOP_LEFT="1055.9970599706005 -337.00402004019918"
-#!   BOTTOM_RIGHT="1794.016200162002 -487.00522005219932"
-#!   BOUNDING_RECT="1055.9970599706005 -337.00402004019918 738.01914019140145 150.00120001200011"
+#!   POSITION="788.99438994390016 -640.00705007049942"
+#!   TOP_LEFT="788.99438994390016 -640.00705007049942"
+#!   BOTTOM_RIGHT="1527.0135301353016 -790.00825008249956"
+#!   BOUNDING_RECT="788.99438994390016 -640.00705007049942 738.01914019140145 150.00120001200011"
 #!   ORDER="500000000000017"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -959,7 +959,7 @@
 #!   BOUNDING_RECT="-345.0034500345007 75.000750007500088 2958.0295802958035 960.0096000960009"
 #!   STICKY="true"
 #!   COLOUR="0,0.50196078431372548,0.50196078431372548"
-#!   CONTENTS="10 7 17 22 13 9 5 12 8 15 16 "
+#!   CONTENTS="22 8 9 16 10 13 7 15 12 5 17 "
 #! >
 #! </BOOKMARK>
 #! </BOOKMARKS>
@@ -1026,8 +1026,8 @@
 #!   IDENTIFIER="12"
 #!   TYPE="AttributeManager"
 #!   VERSION="1"
-#!   POSITION="1166.9996699967007 -144.00144001439992"
-#!   BOUNDING_RECT="1166.9996699967007 -144.00144001439992 -1 -1"
+#!   POSITION="899.99699997000039 -447.00447004470016"
+#!   BOUNDING_RECT="899.99699997000039 -447.00447004470016 -1 -1"
 #!   ORDER="500000000000014"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1164,9 +1164,9 @@
 #! </WORKSPACE>
 FME_PYTHON_VERSION 27
 GUI IGNORE SourceDataset_PDF2D_1,PDF2D_IN_GENERAL_GROUP_PDF2D_1,PDF2D_IN_DOCUMENT_PASSWORD_PDF2D_1,PDF2D_IN_READ_SPATIAL_PDF2D_1,PDF2D_IN_READ_IMAGES_PDF2D_1,PDF2D_IN_READ_SPATIAL_TEXT_PDF2D_1,PDF2D_IN_READ_VECTORS_PDF2D_1,PDF2D_IN_COORDINATE_UNITS_PDF2D_1,PDF2D_IN_SPATIAL_ADVANCED_GROUP_PDF2D_1,PDF2D_IN_MAKE_DONUTS_FROM_MULTIPOLYGONS_PDF2D_1,PDF2D_IN_BEZIER_INTERPOLATION_MODE_PDF2D_1,PDF2D_IN_BEZIER_FLATNESS_TOLERANCE_PDF2D_1,PDF2D_IN_BEZIER_NUM_INTERPOLATION_POINTS_PDF2D_1,PDF2D_IN_READ_NONSPATIAL_PDF2D_1,PDF2D_IN_READ_METADATA_PDF2D_1,PDF2D_IN_READ_NONSPATIAL_TEXT_PDF2D_1,PDF2D_IN_READ_STRUCTURED_TABLES_PDF2D_1,PDF2D_IN_READ_RASTERIZED_PAGES_PDF2D_1,PDF2D_IN_PAGE_RASTER_SIZE_GROUP_PDF2D_1,PDF2D_IN_PAGE_RASTER_SIZE_MODE_PDF2D_1,PDF2D_IN_PAGE_PIXELS_PER_POINT_PDF2D_1,PDF2D_IN_PAGE_NUM_ROWS_PDF2D_1,PDF2D_IN_PAGE_NUM_COLS_PDF2D_1,PDF2D_IN_EXPOSE_ATTRS_GROUP_PDF2D_1,PDF2D_IN_USE_SEARCH_ENVELOPE_PDF2D_1,PDF2D_IN_SEARCH_ENVELOPE_MINX_PDF2D_1,PDF2D_IN_SEARCH_ENVELOPE_MINY_PDF2D_1,PDF2D_IN_SEARCH_ENVELOPE_MAXX_PDF2D_1,PDF2D_IN_SEARCH_ENVELOPE_MAXY_PDF2D_1,PDF2D_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_PDF2D_1,PDF2D_IN_CLIP_TO_ENVELOPE_PDF2D_1,PDF2D_IN_NETWORK_AUTHENTICATION_PDF2D_1,DestDataset_ESRISHAPE_1,ESRISHAPE_OUT_WRITER_PARAMETERS_ESRISHAPE_1,ESRISHAPE_OUT_ENCODING_ESRISHAPE_1,ESRISHAPE_OUT_WRITE_SPATIAL_INDEX_ESRISHAPE_1,ESRISHAPE_OUT_COMPRESSED_SHAPE_FILE_ESRISHAPE_1,ESRISHAPE_OUT_ADVANCED_ESRISHAPE_1,ESRISHAPE_OUT_STRICT_COMPATIBILITY_ESRISHAPE_1,ESRISHAPE_OUT_GEOMETRY_ESRISHAPE_1,ESRISHAPE_OUT_PRESERVE_RING_VERTEX_ORDER_ESRISHAPE_1,ESRISHAPE_OUT_MEASURES_AS_Z_ESRISHAPE_1
-DEFAULT_MACRO SourceDataset_PDF2D /Volumes/GoogleDrive/My Drive/FMEWT_2018/US_County_Populations.pdf
+DEFAULT_MACRO SourceDataset_PDF2D /Users/dmurray/Dropbox (Safe Software Inc.)/DonStuffMac/DonStuff/DemoData/FME2018/FME2018ServerDeepDive/Automation/data/US_County_Populations.pdf
 GUI MULTIFILE SourceDataset_PDF2D PDF_Files(*.pdf)|*.pdf|All_files(*)|* Source Adobe Geospatial PDF File:
-DEFAULT_MACRO DestDataset_ESRISHAPE /Volumes/GoogleDrive/My Drive/FMEWT_2018/output
+DEFAULT_MACRO DestDataset_ESRISHAPE /Users/dmurray/Dropbox (Safe Software Inc.)/DonStuffMac/DonStuff/DemoData/FME2018/FME2018ServerDeepDive/Automation/output
 GUI DIRNAME DestDataset_ESRISHAPE Destination Esri Shapefile Folder:
 INCLUDE [ if {{$(SourceDataset_PDF2D)} == {}} { puts_real {Parameter 'SourceDataset_PDF2D' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(DestDataset_ESRISHAPE)} == {}} { puts_real {Parameter 'DestDataset_ESRISHAPE' must be given a value.}; exit 1; }; ]
@@ -1451,7 +1451,7 @@ FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeManager    INPUT  FEATUR
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeManager OUTPUT Splitter"   INPUT FEATURE_TYPE AttributeManager_OUTPUT   OUTPUT FEATURE_TYPE AttributeManager_OUTPUT_0_qkWxPTSviNs=   OUTPUT FEATURE_TYPE AttributeManager_OUTPUT_1_qYvk7jiZJpI=
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME Logger_Logger    INPUT  FEATURE_TYPE AttributeManager_OUTPUT_1_qYvk7jiZJpI=    OUTPUT FEATURE_TYPE Logger_LOGGED                  @Log(ENCODED, "Logger:<space>Feature is:","20","20","",INFO,LOG_ONLY,Logger_e7d93062_a50e_4c78_8906_bde42651bec53)
+FACTORY_DEF * TeeFactory    FACTORY_NAME Logger_Logger    INPUT  FEATURE_TYPE AttributeManager_OUTPUT_1_qYvk7jiZJpI=    OUTPUT FEATURE_TYPE Logger_LOGGED                  @Log(ENCODED, "Logger:<space>Feature is:","20","20","",INFO,LOG_ONLY,Logger_3f3a8cc4_abbd_4544_96f9_5898dbd89f430)
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Logger LOGGED Transformer Output Nuker"   INPUT FEATURE_TYPE Logger_LOGGED
 # -------------------------------------------------------------------------
