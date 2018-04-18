@@ -1,7 +1,7 @@
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <WORKSPACE
 #    Command-line to run this workspace:
-#        /Library/FME/2018.0/fme /tmp/wb_publish_15240376681_7325/PDFSimpleDemo_Server.fmw
+#        /Library/FME/2018.0/fme /tmp/wb_publish_1524055785751_7325/PDFSimpleDemo_Server.fmw
 #              --SourceDataset_PDF2D "/Users/dmurray/Dropbox (Safe Software Inc.)/DonStuffMac/DonStuff/DemoData/FME2018/FME2018ServerDeepDive/Automation/data/US_County_Populations.pdf"
 #              --DestDataset_ESRISHAPE "/Users/dmurray/Dropbox (Safe Software Inc.)/DonStuffMac/DonStuff/DemoData/FME2018/FME2018ServerDeepDive/Automation/output"
 #    
@@ -13,7 +13,7 @@
 #!   DESTINATION="NONE"
 #!   DESTINATION_ROUTING_FILE=""
 #!   DOC_EXTENTS="2958.03 960.01"
-#!   DOC_TOP_LEFT="-345.003 -885.009"
+#!   DOC_TOP_LEFT="-300 -810.01"
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
@@ -28,7 +28,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2018.0.0.1 (20180328 - Build 18295 - macosx)"
-#!   LAST_SAVE_DATE="2018-04-18T09:47:48"
+#!   LAST_SAVE_DATE="2018-04-18T14:49:45"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -46,7 +46,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-591.006 462.005"
+#!   VIEW_POSITION="-1239.01 915.009"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="100"
@@ -713,8 +713,8 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="5"
 #!   FEAT_GEOMTYPE="pdf_area pdf_line"
-#!   POSITION="-198.00198001980036 -118.99597995979957"
-#!   BOUNDING_RECT="-198.00198001980036 -118.99597995979957 -1 -1"
+#!   POSITION="-152.99852998529965 -43.996729967299657"
+#!   BOUNDING_RECT="-152.99852998529965 -43.996729967299657 -1 -1"
 #!   ORDER="500000000000000"
 #!   COLLAPSED="true"
 #!   KEYWORD="PDF2D_1"
@@ -753,8 +753,8 @@
 #!   IS_EDITABLE="true"
 #!   IDENTIFIER="9"
 #!   FEAT_GEOMTYPE="shape_first_feature"
-#!   POSITION="2073.0027300272968 -82.995619956199789"
-#!   BOUNDING_RECT="2073.0027300272968 -82.995619956199789 -1 -1"
+#!   POSITION="2118.0061800617968 -7.9963699636998768"
+#!   BOUNDING_RECT="2118.0061800617968 -7.9963699636998768 -1 -1"
 #!   ORDER="500000000000037.13"
 #!   COLLAPSED="true"
 #!   KEYWORD="ESRISHAPE_1"
@@ -920,10 +920,10 @@
 #! <COMMENT
 #!   IDENTIFIER="10"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;helvetica neue&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;If FIPS code is missing, exclude (remove duplicate empty rows)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-66.000660006600071 -421.00486004860039"
-#!   TOP_LEFT="-66.000660006600071 -421.00486004860039"
-#!   BOTTOM_RIGHT="543.0084300843007 -571.00606006060048"
-#!   BOUNDING_RECT="-66.000660006600071 -421.00486004860039 609.00909009090083 150.00120001200011"
+#!   POSITION="-20.99720997209937 -346.00561005610052"
+#!   TOP_LEFT="-20.99720997209937 -346.00561005610052"
+#!   BOTTOM_RIGHT="588.0118801188014 -496.00681006810066"
+#!   BOUNDING_RECT="-20.99720997209937 -346.00561005610052 609.00909009090083 150.00120001200011"
 #!   ORDER="500000000000011"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -934,10 +934,10 @@
 #! <COMMENT
 #!   IDENTIFIER="15"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;helvetica neue&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Rename xls_popden_class to make shapefile friendly&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="788.99438994390016 -640.00705007049942"
-#!   TOP_LEFT="788.99438994390016 -640.00705007049942"
-#!   BOTTOM_RIGHT="1527.0135301353016 -790.00825008249956"
-#!   BOUNDING_RECT="788.99438994390016 -640.00705007049942 738.01914019140145 150.00120001200011"
+#!   POSITION="833.99783997840086 -565.00780007799892"
+#!   TOP_LEFT="833.99783997840086 -565.00780007799892"
+#!   BOTTOM_RIGHT="1572.0169801698023 -715.00900008999906"
+#!   BOUNDING_RECT="833.99783997840086 -565.00780007799892 738.01914019140145 150.00120001200011"
 #!   ORDER="500000000000017"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -953,10 +953,10 @@
 #!   IDENTIFIER="11"
 #!   NAME="PDF to Shape with Attributes!"
 #!   DESCRIPTION="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;.SF NS Text&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   TOP_LEFT="-345.0034500345007 75.000750007500088"
+#!   TOP_LEFT="-300 150"
 #!   ORDER="500000000000035.13"
-#!   BOTTOM_RIGHT="2613.0261302613026 -885.00885008850082"
-#!   BOUNDING_RECT="-345.0034500345007 75.000750007500088 2958.0295802958035 960.0096000960009"
+#!   BOTTOM_RIGHT="2658.0295802958035 -810.0096000960009"
+#!   BOUNDING_RECT="-300 150 2958.0295802958035 960.0096000960009"
 #!   STICKY="true"
 #!   COLOUR="0,0.50196078431372548,0.50196078431372548"
 #!   CONTENTS="22 8 9 16 10 13 7 15 12 5 17 "
@@ -968,8 +968,8 @@
 #!   IDENTIFIER="7"
 #!   TYPE="Tester"
 #!   VERSION="2"
-#!   POSITION="422.99672996729964 -120.00120001200003"
-#!   BOUNDING_RECT="422.99672996729964 -120.00120001200003 -1 -1"
+#!   POSITION="468.00018000180035 -45.001950019500114"
+#!   BOUNDING_RECT="468.00018000180035 -45.001950019500114 -1 -1"
 #!   ORDER="500000000000010"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1026,8 +1026,8 @@
 #!   IDENTIFIER="12"
 #!   TYPE="AttributeManager"
 #!   VERSION="1"
-#!   POSITION="899.99699997000039 -447.00447004470016"
-#!   BOUNDING_RECT="899.99699997000039 -447.00447004470016 -1 -1"
+#!   POSITION="945.00045000450109 -372.00522005220023"
+#!   BOUNDING_RECT="945.00045000450109 -372.00522005220023 -1 -1"
 #!   ORDER="500000000000014"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1068,8 +1068,8 @@
 #!   IDENTIFIER="16"
 #!   TYPE="Logger"
 #!   VERSION="4"
-#!   POSITION="1794.0059400594018 -612.00612006119968"
-#!   BOUNDING_RECT="1794.0059400594018 -612.00612006119968 -1 -1"
+#!   POSITION="1839.0093900939019 -537.00687006869919"
+#!   BOUNDING_RECT="1839.0093900939019 -537.00687006869919 -1 -1"
 #!   ORDER="500000000000019"
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
@@ -1451,7 +1451,7 @@ FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeManager    INPUT  FEATUR
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeManager OUTPUT Splitter"   INPUT FEATURE_TYPE AttributeManager_OUTPUT   OUTPUT FEATURE_TYPE AttributeManager_OUTPUT_0_qkWxPTSviNs=   OUTPUT FEATURE_TYPE AttributeManager_OUTPUT_1_qYvk7jiZJpI=
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME Logger_Logger    INPUT  FEATURE_TYPE AttributeManager_OUTPUT_1_qYvk7jiZJpI=    OUTPUT FEATURE_TYPE Logger_LOGGED                  @Log(ENCODED, "Logger:<space>Feature is:","20","20","",INFO,LOG_ONLY,Logger_3f3a8cc4_abbd_4544_96f9_5898dbd89f430)
+FACTORY_DEF * TeeFactory    FACTORY_NAME Logger_Logger    INPUT  FEATURE_TYPE AttributeManager_OUTPUT_1_qYvk7jiZJpI=    OUTPUT FEATURE_TYPE Logger_LOGGED                  @Log(ENCODED, "Logger:<space>Feature is:","20","20","",INFO,LOG_ONLY,Logger_3f3a8cc4_abbd_4544_96f9_5898dbd89f431)
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Logger LOGGED Transformer Output Nuker"   INPUT FEATURE_TYPE Logger_LOGGED
 # -------------------------------------------------------------------------
