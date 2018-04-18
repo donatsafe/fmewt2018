@@ -1,7 +1,7 @@
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <WORKSPACE
 #    Command-line to run this workspace:
-#        /Library/FME/2018.0/fme /tmp/wb_publish_1524055785751_7325/PDFSimpleDemo_Server.fmw
+#        /Library/FME/2018.0/fme /tmp/wb_publish_1524056386806_7325/PDFSimpleDemo_Server.fmw
 #              --SourceDataset_PDF2D "/Users/dmurray/Dropbox (Safe Software Inc.)/DonStuffMac/DonStuff/DemoData/FME2018/FME2018ServerDeepDive/Automation/data/US_County_Populations.pdf"
 #              --DestDataset_ESRISHAPE "/Users/dmurray/Dropbox (Safe Software Inc.)/DonStuffMac/DonStuff/DemoData/FME2018/FME2018ServerDeepDive/Automation/output"
 #    
@@ -28,7 +28,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2018.0.0.1 (20180328 - Build 18295 - macosx)"
-#!   LAST_SAVE_DATE="2018-04-18T14:49:45"
+#!   LAST_SAVE_DATE="2018-04-18T14:59:46"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -934,10 +934,10 @@
 #! <COMMENT
 #!   IDENTIFIER="15"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;helvetica neue&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Rename xls_popden_class to make shapefile friendly&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="833.99783997840086 -565.00780007799892"
-#!   TOP_LEFT="833.99783997840086 -565.00780007799892"
-#!   BOTTOM_RIGHT="1572.0169801698023 -715.00900008999906"
-#!   BOUNDING_RECT="833.99783997840086 -565.00780007799892 738.01914019140145 150.00120001200011"
+#!   POSITION="1101.000510005101 -247.00462004619862"
+#!   TOP_LEFT="1101.000510005101 -247.00462004619862"
+#!   BOTTOM_RIGHT="1839.0196501965024 -397.00582005819876"
+#!   BOUNDING_RECT="1101.000510005101 -247.00462004619862 738.01914019140145 150.00120001200011"
 #!   ORDER="500000000000017"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1026,8 +1026,8 @@
 #!   IDENTIFIER="12"
 #!   TYPE="AttributeManager"
 #!   VERSION="1"
-#!   POSITION="945.00045000450109 -372.00522005220023"
-#!   BOUNDING_RECT="945.00045000450109 -372.00522005220023 -1 -1"
+#!   POSITION="1212.0031200312012 -54.002040020399932"
+#!   BOUNDING_RECT="1212.0031200312012 -54.002040020399932 -1 -1"
 #!   ORDER="500000000000014"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1451,7 +1451,7 @@ FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeManager    INPUT  FEATUR
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeManager OUTPUT Splitter"   INPUT FEATURE_TYPE AttributeManager_OUTPUT   OUTPUT FEATURE_TYPE AttributeManager_OUTPUT_0_qkWxPTSviNs=   OUTPUT FEATURE_TYPE AttributeManager_OUTPUT_1_qYvk7jiZJpI=
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME Logger_Logger    INPUT  FEATURE_TYPE AttributeManager_OUTPUT_1_qYvk7jiZJpI=    OUTPUT FEATURE_TYPE Logger_LOGGED                  @Log(ENCODED, "Logger:<space>Feature is:","20","20","",INFO,LOG_ONLY,Logger_3f3a8cc4_abbd_4544_96f9_5898dbd89f431)
+FACTORY_DEF * TeeFactory    FACTORY_NAME Logger_Logger    INPUT  FEATURE_TYPE AttributeManager_OUTPUT_1_qYvk7jiZJpI=    OUTPUT FEATURE_TYPE Logger_LOGGED                  @Log(ENCODED, "Logger:<space>Feature is:","20","20","",INFO,LOG_ONLY,Logger_3f3a8cc4_abbd_4544_96f9_5898dbd89f432)
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Logger LOGGED Transformer Output Nuker"   INPUT FEATURE_TYPE Logger_LOGGED
 # -------------------------------------------------------------------------
